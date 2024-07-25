@@ -8,9 +8,10 @@ steps:
 - task: katalonTask@1
   inputs:
     version: '8.2.5'
-    executeArgs: '-testSuitePath="Test Suites/New Test Suite" -browserType="Chrome" -apiKey=$(katalon_api_key) --config -webui.autoUpdateDrivers=true'
+    executeArgs: '-testSuitePath="Test Suites/Test" -browserType="Chrome" -apiKey=554d7f82-ac15-4b60-aab3-739c97658f70 --config -webui.autoUpdateDrivers=true'
     xvfbConfiguration: '-a -n 0 -s "-screen 0 1024x768x24"'
 - task: PublishPipelineArtifact@0
   inputs:
     artifactName: 'JUnit Report' 
     targetPath: report/
+    
