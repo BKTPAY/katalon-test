@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Suite_Web" time="53.388" tests="4" failures="0" errors="0">
+   <testsuite name="Test_Suite_Web" tests="4" failures="0" errors="0" time="53.388" skipped="0" timestamp="26-07-2024T10:35:22" hostname="finartz - localhost" id="">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/finartz/Katalon Studio/Epara_Ui/Reports/20240726_103517/Test_Suite_Web/20240726_103518"/>
+         <property name="logFiles" value="/Users/finartz/Katalon Studio/Epara_Ui/Reports/20240726_103517/Test_Suite_Web/20240726_103518/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="finartz - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="d752acbc4dfa31c376a058dacbf5c71d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Sucess_Login" time="8.412" classname="Test Cases/Sucess_Login" status="PASSED">
+         <system-out><![CDATA[26-07-2024T10:35:22 - [TEST_CASE][PASSED] - Test Cases/Sucess_Login: Test Cases/Sucess_Login
+
+26-07-2024T10:35:22 - [TEST_STEP][PASSED] - openBrowser("https://backofficeui-dev.epara.app/"): Browser is opened with url: 'https://backofficeui-dev.epara.app/'
+
+26-07-2024T10:35:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-07-2024T10:35:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-07-2024T10:35:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://backofficeui-dev.epara.app/'
+
+26-07-2024T10:35:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-07-2024T10:35:25 - [MESSAGE][PASSED] - Current window maximized
+
+26-07-2024T10:35:25 - [TEST_STEP][PASSED] - setText(findTestObject("Sucess_Login/Page_E-Para Backoffice/input_E-mail_username"), "ozlem.ozdemir@finartz.com"): Text 'ozlem.ozdemir@finartz.com' is set on object 'Object Repository/Sucess_Login/Page_E-Para Backoffice/input_E-mail_username'
+
+26-07-2024T10:35:26 - [MESSAGE][PASSED] - Text 'ozlem.ozdemir@finartz.com' is set on object 'Object Repository/Sucess_Login/Page_E-Para Backoffice/input_E-mail_username'
+
+26-07-2024T10:35:26 - [TEST_STEP][PASSED] - setText(findTestObject("Sucess_Login/Page_E-Para Backoffice/input_Password_password"), "Ozlem123."): Text 'Ozlem123.' is set on object 'Object Repository/Sucess_Login/Page_E-Para Backoffice/input_Password_password'
+
+26-07-2024T10:35:27 - [MESSAGE][PASSED] - Text 'Ozlem123.' is set on object 'Object Repository/Sucess_Login/Page_E-Para Backoffice/input_Password_password'
+
+26-07-2024T10:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Sucess_Login/Page_E-Para Backoffice/input_Forgot Password_login")): Object: 'Object Repository/Sucess_Login/Page_E-Para Backoffice/input_Forgot Password_login' is clicked on
+
+26-07-2024T10:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Sucess_Login/Page_E-Para Backoffice/input_Forgot Password_login' is clicked on
+
+26-07-2024T10:35:28 - [TEST_STEP][PASSED] - getText(findTestObject("Sucess_Login/Page_E-Para Backoffice/div_E-Para Backoffice")): Text of object 'Object Repository/Sucess_Login/Page_E-Para Backoffice/div_E-Para Backoffice' is: 'E-Para Backoffice'
+
+26-07-2024T10:35:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Sucess_Login/Page_E-Para Backoffice/div_E-Para Backoffice' is: 'E-Para Backoffice'
+
+26-07-2024T10:35:30 - [TEST_STEP][PASSED] - verifyEqual("E-Para Backoffice", "E-Para Backoffice"): Actual object 'E-Para Backoffice' and expected object 'E-Para Backoffice' are equal
+
+26-07-2024T10:35:30 - [MESSAGE][PASSED] - Actual object 'E-Para Backoffice' and expected object 'E-Para Backoffice' are equal
+
+26-07-2024T10:35:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-07-2024T10:35:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer_Management_Listt" time="14.482" classname="Test Cases/Customer_Management_Listt" status="PASSED">
+         <system-out><![CDATA[26-07-2024T10:35:30 - [TEST_CASE][PASSED] - Test Cases/Customer_Management_Listt: Test Cases/Customer_Management_Listt
+
+26-07-2024T10:35:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-07-2024T10:35:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-07-2024T10:35:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-07-2024T10:35:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-07-2024T10:35:31 - [TEST_STEP][PASSED] - navigateToUrl("https://auth-uat.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-uat.epara.app%2F&state=abb9a0ed-1827-491f-8407-4a05506aaa12&response_mode=fragment&response_type=code&scope=openid&nonce=ffc969da-2673-4b3c-849d-e5cae756b071&code_challenge=0izcAaGALJ94G8EJpAN-_mk_0my7CGhu54vC3XQE_0w&code_challenge_method=S256"): Navigate to 'https://auth-uat.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-uat.epara.app%2F&state=abb9a0ed-1827-491f-8407-4a05506aaa12&response_mode=fragment&response_type=code&scope=openid&nonce=ffc969da-2673-4b3c-849d-e5cae756b071&code_challenge=0izcAaGALJ94G8EJpAN-_mk_0my7CGhu54vC3XQE_0w&code_challenge_method=S256' successfully
+
+26-07-2024T10:35:33 - [MESSAGE][PASSED] - Navigate to 'https://auth-uat.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-uat.epara.app%2F&state=abb9a0ed-1827-491f-8407-4a05506aaa12&response_mode=fragment&response_type=code&scope=openid&nonce=ffc969da-2673-4b3c-849d-e5cae756b071&code_challenge=0izcAaGALJ94G8EJpAN-_mk_0my7CGhu54vC3XQE_0w&code_challenge_method=S256' successfully
+
+26-07-2024T10:35:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_E-mail_username"), "ozlem.ozdemir@finartz.com"): Text 'ozlem.ozdemir@finartz.com' is set on object 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_E-mail_username'
+
+26-07-2024T10:35:33 - [MESSAGE][PASSED] - Text 'ozlem.ozdemir@finartz.com' is set on object 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_E-mail_username'
+
+26-07-2024T10:35:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_Password_password"), "JRVbc697Q+q9cSOs8Xgkxw=="): Text ****** has been set on object 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_Password_password'
+
+26-07-2024T10:35:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_Password_password'
+
+26-07-2024T10:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_Forgot Password_login")): Object: 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_Forgot Password_login' is clicked on
+
+26-07-2024T10:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_Forgot Password_login' is clicked on
+
+26-07-2024T10:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Customer Management")): Object: 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Customer Management' is clicked on
+
+26-07-2024T10:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Customer Management' is clicked on
+
+26-07-2024T10:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Individual")): Object: 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Individual' is clicked on
+
+26-07-2024T10:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Individual' is clicked on
+
+26-07-2024T10:35:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer_Management_List/Page_E-Para Backoffice/span_List"), "List"): Actual text and expected text of test object 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/span_List' are matched.
+
+26-07-2024T10:35:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer_Management_List/Page_E-Para Backoffice/span_List' are matched.
+
+26-07-2024T10:35:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-07-2024T10:35:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer_Management_Detail" time="15.597" classname="Test Cases/Customer_Management_Detail" status="PASSED">
+         <system-out><![CDATA[26-07-2024T10:35:45 - [TEST_CASE][PASSED] - Test Cases/Customer_Management_Detail: Test Cases/Customer_Management_Detail
+
+26-07-2024T10:35:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-07-2024T10:35:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-07-2024T10:35:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-07-2024T10:35:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-07-2024T10:35:45 - [TEST_STEP][PASSED] - navigateToUrl("https://auth-uat.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-uat.epara.app%2F&state=abb9a0ed-1827-491f-8407-4a05506aaa12&response_mode=fragment&response_type=code&scope=openid&nonce=ffc969da-2673-4b3c-849d-e5cae756b071&code_challenge=0izcAaGALJ94G8EJpAN-_mk_0my7CGhu54vC3XQE_0w&code_challenge_method=S256"): Navigate to 'https://auth-uat.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-uat.epara.app%2F&state=abb9a0ed-1827-491f-8407-4a05506aaa12&response_mode=fragment&response_type=code&scope=openid&nonce=ffc969da-2673-4b3c-849d-e5cae756b071&code_challenge=0izcAaGALJ94G8EJpAN-_mk_0my7CGhu54vC3XQE_0w&code_challenge_method=S256' successfully
+
+26-07-2024T10:35:47 - [MESSAGE][PASSED] - Navigate to 'https://auth-uat.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-uat.epara.app%2F&state=abb9a0ed-1827-491f-8407-4a05506aaa12&response_mode=fragment&response_type=code&scope=openid&nonce=ffc969da-2673-4b3c-849d-e5cae756b071&code_challenge=0izcAaGALJ94G8EJpAN-_mk_0my7CGhu54vC3XQE_0w&code_challenge_method=S256' successfully
+
+26-07-2024T10:35:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_E-mail_username"), "ozlem.ozdemir@finartz.com"): Text 'ozlem.ozdemir@finartz.com' is set on object 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_E-mail_username'
+
+26-07-2024T10:35:47 - [MESSAGE][PASSED] - Text 'ozlem.ozdemir@finartz.com' is set on object 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_E-mail_username'
+
+26-07-2024T10:35:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_Password_password"), "JRVbc697Q+q9cSOs8Xgkxw=="): Text ****** has been set on object 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_Password_password'
+
+26-07-2024T10:35:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_Password_password'
+
+26-07-2024T10:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_Forgot Password_login")): Object: 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_Forgot Password_login' is clicked on
+
+26-07-2024T10:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_Forgot Password_login' is clicked on
+
+26-07-2024T10:35:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/div_Customer Management")): Object: 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/div_Customer Management' is clicked on
+
+26-07-2024T10:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/div_Customer Management' is clicked on
+
+26-07-2024T10:35:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/div_Individual")): Object: 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/div_Individual' is clicked on
+
+26-07-2024T10:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/div_Individual' is clicked on
+
+26-07-2024T10:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/svg")): Object: 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/svg' is clicked on
+
+26-07-2024T10:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/svg' is clicked on
+
+26-07-2024T10:35:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/span_Information"), "Information"): Actual text and expected text of test object 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/span_Information' are matched.
+
+26-07-2024T10:36:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/span_Information' are matched.
+
+26-07-2024T10:36:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/span_Information"), "Information"): Actual text and expected text of test object 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/span_Information' are matched.
+
+26-07-2024T10:36:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/span_Information' are matched.
+
+26-07-2024T10:36:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-07-2024T10:36:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reconciliation_Detail" time="14.808" classname="Test Cases/Reconciliation_Detail" status="PASSED">
+         <system-out><![CDATA[26-07-2024T10:36:00 - [TEST_CASE][PASSED] - Test Cases/Reconciliation_Detail: Test Cases/Reconciliation_Detail
+
+26-07-2024T10:36:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-07-2024T10:36:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-07-2024T10:36:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-07-2024T10:36:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-07-2024T10:36:01 - [TEST_STEP][PASSED] - navigateToUrl("https://auth-uat.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-uat.epara.app%2F&state=abb9a0ed-1827-491f-8407-4a05506aaa12&response_mode=fragment&response_type=code&scope=openid&nonce=ffc969da-2673-4b3c-849d-e5cae756b071&code_challenge=0izcAaGALJ94G8EJpAN-_mk_0my7CGhu54vC3XQE_0w&code_challenge_method=S256"): Navigate to 'https://auth-uat.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-uat.epara.app%2F&state=abb9a0ed-1827-491f-8407-4a05506aaa12&response_mode=fragment&response_type=code&scope=openid&nonce=ffc969da-2673-4b3c-849d-e5cae756b071&code_challenge=0izcAaGALJ94G8EJpAN-_mk_0my7CGhu54vC3XQE_0w&code_challenge_method=S256' successfully
+
+26-07-2024T10:36:02 - [MESSAGE][PASSED] - Navigate to 'https://auth-uat.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-uat.epara.app%2F&state=abb9a0ed-1827-491f-8407-4a05506aaa12&response_mode=fragment&response_type=code&scope=openid&nonce=ffc969da-2673-4b3c-849d-e5cae756b071&code_challenge=0izcAaGALJ94G8EJpAN-_mk_0my7CGhu54vC3XQE_0w&code_challenge_method=S256' successfully
+
+26-07-2024T10:36:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/input_E-mail_username"), "ozlem.ozdemir@finartz.com"): Text 'ozlem.ozdemir@finartz.com' is set on object 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/input_E-mail_username'
+
+26-07-2024T10:36:03 - [MESSAGE][PASSED] - Text 'ozlem.ozdemir@finartz.com' is set on object 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/input_E-mail_username'
+
+26-07-2024T10:36:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/input_Password_password"), "JRVbc697Q+q9cSOs8Xgkxw=="): Text ****** has been set on object 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/input_Password_password'
+
+26-07-2024T10:36:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/input_Password_password'
+
+26-07-2024T10:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/input_Forgot Password_login")): Object: 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/input_Forgot Password_login' is clicked on
+
+26-07-2024T10:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/input_Forgot Password_login' is clicked on
+
+26-07-2024T10:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/div_Reconciliation")): Object: 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/div_Reconciliation' is clicked on
+
+26-07-2024T10:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/div_Reconciliation' is clicked on
+
+26-07-2024T10:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/svg")): Object: 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/svg' is clicked on
+
+26-07-2024T10:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/svg' is clicked on
+
+26-07-2024T10:36:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/span_Detail"), "Detail"): Actual text and expected text of test object 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/span_Detail' are matched.
+
+26-07-2024T10:36:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Reconciliation_Detail/Page_E-Para Backoffice/span_Detail' are matched.
+
+26-07-2024T10:36:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-07-2024T10:36:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-07-2024T10:35:22 - [TEST_SUITE][PASSED] - Test_Suite_Web: Test Cases/Reconciliation_Detail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

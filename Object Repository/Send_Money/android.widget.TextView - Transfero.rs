@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.TextView - Transfero</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>55ce3de9-e802-4f58-9160-d010b590c561</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>08a043ff-4d3a-4261-9a12-f48559fad0f0</webElementGuid>
+      <webElementGuid>abd051a1-8c26-4e63-922b-4ff95c37d967</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>3d317244-80bd-4bd4-974f-b8e665da7cbe</webElementGuid>
+      <webElementGuid>3dbe70dd-e475-43d2-bd14-2f8288228280</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Transfero</value>
-      <webElementGuid>964e2aff-02f0-4c6a-83bf-931888f9d67b</webElementGuid>
+      <webElementGuid>ee89579a-9ae8-4e86-9335-42134ba40e1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>package</name>
       <type>Main</type>
       <value>al.com.bktpay.epara.uat</value>
-      <webElementGuid>e6449561-0b93-4c53-8a44-25ccdcb3561d</webElementGuid>
+      <webElementGuid>31b05610-d258-4d0a-b7cd-82bfb05de48f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>436d3232-3c2b-4054-8e89-b85b6cafba21</webElementGuid>
+      <webElementGuid>3cc6fd06-48ba-438a-96ec-5ec29506a741</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0d0336c4-8998-4d66-874a-3397214591b3</webElementGuid>
+      <webElementGuid>0f85e479-7f00-4809-a694-d26ec1aae894</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>84978914-fa6e-4b53-a051-9e169441b0ec</webElementGuid>
+      <webElementGuid>f95a14da-6a83-44f7-8bff-425f30e0479e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>950187a0-a05d-425a-9463-e8c3157b223e</webElementGuid>
+      <webElementGuid>0ab4ccda-90ba-44d1-8017-57ac0c00f6d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>da37dc2a-22f5-4d11-8728-c2ff9f12084f</webElementGuid>
+      <webElementGuid>5b4bbcf8-1184-4f9e-b5f3-d18c7c0e5085</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b1ee9b88-95b8-4c41-ae5c-95d4589d02f0</webElementGuid>
+      <webElementGuid>24f6667c-5dd5-4819-a10c-a940accaa1bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fb82242e-8e77-433d-93f2-8f23a8d393a9</webElementGuid>
+      <webElementGuid>20042cea-9bcd-46a6-adb3-7c9b31bafe29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1cb17f7b-3aec-466c-b838-262089ca419c</webElementGuid>
+      <webElementGuid>9b3f780b-7ba3-46a6-8b58-68d6d2e4a767</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0120863b-0d62-4d73-b227-264866000c28</webElementGuid>
+      <webElementGuid>d8eb1e47-2854-4835-bc57-f294756fe093</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>16af2f7d-4bdd-4023-a2b5-b3b2f024b548</webElementGuid>
+      <webElementGuid>c3256b2d-8f5e-441c-890e-e0298bc2e18e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,15 +125,15 @@
       <name>x</name>
       <type>Main</type>
       <value>216</value>
-      <webElementGuid>e8cbb183-e972-4978-a1b6-3da111f18a6e</webElementGuid>
+      <webElementGuid>cafced1f-b2ca-405c-963f-32e85a0487ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>2246</value>
-      <webElementGuid>c4e6a3d1-99b0-43ce-8bce-1711dafdc2c0</webElementGuid>
+      <value>2186</value>
+      <webElementGuid>f2d78099-1687-4d68-81b6-2ec137c8082e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>width</name>
       <type>Main</type>
       <value>216</value>
-      <webElementGuid>d01933e0-0325-4b25-ab05-ccefc8f7c748</webElementGuid>
+      <webElementGuid>01c0941d-3edf-4d5d-950e-56d8d064544f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,15 +149,15 @@
       <name>height</name>
       <type>Main</type>
       <value>58</value>
-      <webElementGuid>2a5229b2-1b41-4f95-be52-8f8690c8e057</webElementGuid>
+      <webElementGuid>cc4be384-483c-46e3-80be-6f543704b69b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[216,2246][432,2304]</value>
-      <webElementGuid>90cb3617-47d9-4ad7-a4ff-4f64aef7d168</webElementGuid>
+      <value>[216,2186][432,2244]</value>
+      <webElementGuid>7598995f-2638-420b-aa18-84ada72b9d90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>92f3bd3a-22ff-46cc-b952-418499cf73f5</webElementGuid>
+      <webElementGuid>5b07ba8b-29af-4440-a002-e3318a51759e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,29 +173,30 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]</value>
-      <webElementGuid>e77b57a0-1700-4861-b79c-e61bd437d187</webElementGuid>
+      <webElementGuid>03dd771b-318d-4912-87cc-5f3147ed2e20</webElementGuid>
    </webElementProperties>
    <locator>//*[@class = 'android.widget.TextView' and (@text = 'Transfero' or . = 'Transfero')]</locator>
    <locatorCollection>
       <entry>
-         <key>ATTRIBUTES</key>
          <value>//*[@class = 'android.widget.TextView' and (@text = 'Transfero' or . = 'Transfero')]</value>
       </entry>
       <entry>
-         <key>NAME</key>
-         <value></value>
+         <key>ACCESSIBILITY</key>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>IOS_PREDICATE_STRING</key>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Transfero&quot;).packageName(&quot;al.com.bktpay.epara.uat&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)</value>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>NAME</key>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -203,15 +204,6 @@
       </entry>
       <entry>
          <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -219,11 +211,14 @@
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
-         <value></value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
-         <value></value>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Transfero&quot;).packageName(&quot;al.com.bktpay.epara.uat&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Transfero' or . = 'Transfero')]</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

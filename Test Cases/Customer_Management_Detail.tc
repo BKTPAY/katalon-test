@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customer_Management_Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a35b35f7-c76e-48ef-92ce-debd6cbe037f</testCaseGuid>
+</TestCaseEntity>

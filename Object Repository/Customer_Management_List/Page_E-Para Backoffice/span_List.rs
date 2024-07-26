@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_List</name>
+   <tag></tag>
+   <elementGuidId>9341b6cb-9a4e-4bcd-b935-0372599f361f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div/div/nav/ol/li[3]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(3) > span.ant-breadcrumb-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=navigation >> internal:text=&quot;List&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5c9c1870-c6b8-40d3-9f24-b9d0e01ca8eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-breadcrumb-link</value>
+      <webElementGuid>845c4c33-0e33-4beb-aa11-6db6d5d3e612</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>List</value>
+      <webElementGuid>0f659b83-a2df-4355-9cdc-3754a6b3b254</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;layout_layout__tZtl7&quot;]/div[@class=&quot;layout_contentWrapper___Tf4B&quot;]/div[@class=&quot;layout_content__rKQNk&quot;]/div[1]/div[@class=&quot;ant-card ant-card-bordered !mb-5&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;flex items-center justify-between flex-wrap gap-5&quot;]/div[1]/nav[@class=&quot;ant-breadcrumb&quot;]/ol[1]/li[3]/span[@class=&quot;ant-breadcrumb-link&quot;]</value>
+      <webElementGuid>de04e9c4-53c4-4f0b-b519-240b827fd14d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div/div/nav/ol/li[3]/span</value>
+      <webElementGuid>52583e7c-ee1f-4a8f-904c-d25f99e1ecfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[2]/following::span[1]</value>
+      <webElementGuid>bac61db1-89f0-46e9-95ca-db3e0d78cd96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Individual'])[2]/following::span[2]</value>
+      <webElementGuid>452dfcf0-822c-4eb4-8801-3f86b98f3add</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[3]/preceding::span[1]</value>
+      <webElementGuid>a5d2dd10-10b0-4d44-b003-0a441747472d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List'])[2]/preceding::span[2]</value>
+      <webElementGuid>c3f432dd-f88f-4180-82d5-291fc1fd108b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='List']/parent::*</value>
+      <webElementGuid>aaf75795-3153-4ecd-8346-b5a051b297ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/span</value>
+      <webElementGuid>25c59ce2-f7e2-4718-9352-6bdc7e5b1438</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'List' or . = 'List')]</value>
+      <webElementGuid>71342370-36b8-4022-82cf-44821786ae30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

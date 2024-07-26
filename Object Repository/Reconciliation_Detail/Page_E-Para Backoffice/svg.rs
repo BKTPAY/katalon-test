@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg</name>
+   <tag></tag>
+   <elementGuidId>af429dd5-4c1a-4457-9b80-f29ed68fa62f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.button_icon__J7W8w > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;19.07.24 00:00:00-21.07.24 22:59:59 22.07.24 12:08:53 22.07.24 12:08:53 Success Unreconciled - 22.07.24 12:08:53 22.07.24 12:08:53 0s&quot;i] >> internal:role=link >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>e31e91ab-5140-4ead-88cb-34433fcc1850</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>b0c5ef4c-a39e-4707-8953-809513e7e594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>33f5ec03-29a7-475e-b5a4-13a19fba1295</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>2e0560e4-2fdc-4e52-8c93-9c11cd68a9b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>9a11783b-be1f-40df-a05c-fd488f8396a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>22</value>
+      <webElementGuid>6ef3a60c-f754-49f7-8a94-202196d0760b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>22</value>
+      <webElementGuid>f26ca51a-415f-4580-88d7-312735e85ea8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>a3663c89-1f62-4b4a-bec2-db457d6ee433</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;layout_layout__tZtl7&quot;]/div[@class=&quot;layout_contentWrapper___Tf4B&quot;]/div[@class=&quot;layout_content__rKQNk&quot;]/div[1]/div[@class=&quot;ant-card ant-card-bordered padding-none&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-table-wrapper&quot;]/div[@class=&quot;ant-spin-nested-loading&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-ping-left ant-table-ping-right&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-content&quot;]/table[1]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row ant-table-row-level-0 pointerCursor&quot;]/td[@class=&quot;ant-table-cell ant-table-cell-row-hover&quot;]/a[1]/a[@class=&quot;button_icon__J7W8w&quot;]/svg[1]</value>
+      <webElementGuid>9110c384-14ae-441b-ae84-d7606afd1139</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>0638b759-2127-4452-8a92-10d7461857c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unreconciled'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>abc6c4e8-7420-4323-a0dc-5e989fc19c12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Success'])[2]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>5d284d28-3ac7-41de-bdb5-f61b01617d80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unreconciled'])[2]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>3cca6476-5ea4-4c24-9256-8bef680ccaa9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

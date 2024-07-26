@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BO_UI,Chrome 126.0.0.0,,,22-07-2024 15:10:10,22-07-2024 15:10:52,"42,003s",PASSED
+,,,,,,,
+Test Cases/Success_Logout,Chrome 126.0.0.0,,,22-07-2024 15:10:10,22-07-2024 15:10:20,"9,899s",PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,22-07-2024 15:10:10,22-07-2024 15:10:11,"1,401s",PASSED
+"navigateToUrl(""https://auth-dev.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-dev.epara.app%2F&state=35683512-3c68-455f-8c96-a2a67ee6b247&response_mode=fragment&response_type=code&scope=openid&nonce=effcf8fb-10a7-4c94-8558-bfac2d2c9c71&code_challenge=Qqv-S2nSKnMQquGuG-ozo8X0KcCgWMTWKiL4xjtO70Y&code_challenge_method=S256"")",Chrome 126.0.0.0,,,22-07-2024 15:10:11,22-07-2024 15:10:13,"1,139s",PASSED
+"setText(findTestObject(""Object Repository/Success_Logout/Page_E-Para Backoffice/input_E-mail_username""), ""ozlem.ozdemir@finartz.com"")",Chrome 126.0.0.0,,,22-07-2024 15:10:13,22-07-2024 15:10:13,"0,635s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Success_Logout/Page_E-Para Backoffice/input_Password_password""), ""JRVbc697Q+q9cSOs8Xgkxw=="")",Chrome 126.0.0.0,,,22-07-2024 15:10:13,22-07-2024 15:10:13,"0,298s",PASSED
+"click(findTestObject(""Object Repository/Success_Logout/Page_E-Para Backoffice/input_Forgot Password_login""))",Chrome 126.0.0.0,,,22-07-2024 15:10:13,22-07-2024 15:10:16,"2,380s",PASSED
+"click(findTestObject(""Object Repository/Success_Logout/Page_E-Para Backoffice/div_Logout""))",Chrome 126.0.0.0,,,22-07-2024 15:10:16,22-07-2024 15:10:20,"3,807s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,22-07-2024 15:10:20,22-07-2024 15:10:20,"0,102s",PASSED
+,,,,,,,
+Test Cases/Sucess_Login,Chrome 126.0.0.0,,,22-07-2024 15:10:20,22-07-2024 15:10:29,"8,900s",PASSED
+"openBrowser(""https://backofficeui-dev.epara.app/"")",Chrome 126.0.0.0,,,22-07-2024 15:10:20,22-07-2024 15:10:22,"2,455s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,22-07-2024 15:10:22,22-07-2024 15:10:23,"0,330s",PASSED
+"setText(findTestObject(""Sucess_Login/Page_E-Para Backoffice/input_E-mail_username""), ""ozlem.ozdemir@finartz.com"")",Chrome 126.0.0.0,,,22-07-2024 15:10:23,22-07-2024 15:10:24,"1,690s",PASSED
+"setText(findTestObject(""Sucess_Login/Page_E-Para Backoffice/input_Password_password""), ""Ozlem123."")",Chrome 126.0.0.0,,,22-07-2024 15:10:24,22-07-2024 15:10:25,"0,530s",PASSED
+"click(findTestObject(""Sucess_Login/Page_E-Para Backoffice/input_Forgot Password_login""))",Chrome 126.0.0.0,,,22-07-2024 15:10:25,22-07-2024 15:10:26,"1,075s",PASSED
+"getText(findTestObject(""Sucess_Login/Page_E-Para Backoffice/div_E-Para Backoffice""))",Chrome 126.0.0.0,,,22-07-2024 15:10:26,22-07-2024 15:10:29,"2,676s",PASSED
+"verifyEqual(""E-Para Backoffice"", ""E-Para Backoffice"")",Chrome 126.0.0.0,,,22-07-2024 15:10:29,22-07-2024 15:10:29,"0,017s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,22-07-2024 15:10:29,22-07-2024 15:10:29,"0,093s",PASSED
+,,,,,,,
+Test Cases/Customer_Management_Listt,Chrome 126.0.0.0,,,22-07-2024 15:10:29,22-07-2024 15:10:39,"9,950s",PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,22-07-2024 15:10:29,22-07-2024 15:10:29,"0,654s",PASSED
+"navigateToUrl(""https://auth-dev.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-dev.epara.app%2F&state=35683512-3c68-455f-8c96-a2a67ee6b247&response_mode=fragment&response_type=code&scope=openid&nonce=effcf8fb-10a7-4c94-8558-bfac2d2c9c71&code_challenge=Qqv-S2nSKnMQquGuG-ozo8X0KcCgWMTWKiL4xjtO70Y&code_challenge_method=S256"")",Chrome 126.0.0.0,,,22-07-2024 15:10:29,22-07-2024 15:10:30,"0,490s",PASSED
+"setText(findTestObject(""Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_E-mail_username""), ""ozlem.ozdemir@finartz.com"")",Chrome 126.0.0.0,,,22-07-2024 15:10:30,22-07-2024 15:10:31,"1,317s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_Password_password""), ""JRVbc697Q+q9cSOs8Xgkxw=="")",Chrome 126.0.0.0,,,22-07-2024 15:10:31,22-07-2024 15:10:31,"0,274s",PASSED
+"click(findTestObject(""Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_Forgot Password_login""))",Chrome 126.0.0.0,,,22-07-2024 15:10:31,22-07-2024 15:10:34,"2,095s",PASSED
+"click(findTestObject(""Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Customer Management""))",Chrome 126.0.0.0,,,22-07-2024 15:10:34,22-07-2024 15:10:37,"3,570s",PASSED
+"click(findTestObject(""Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Individual""))",Chrome 126.0.0.0,,,22-07-2024 15:10:37,22-07-2024 15:10:38,"0,725s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer_Management_List/Page_E-Para Backoffice/span_List""), ""List"")",Chrome 126.0.0.0,,,22-07-2024 15:10:38,22-07-2024 15:10:39,"0,704s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,22-07-2024 15:10:39,22-07-2024 15:10:39,"0,093s",PASSED
+,,,,,,,
+Test Cases/Customer_Management_Detail,Chrome 126.0.0.0,,,22-07-2024 15:10:39,22-07-2024 15:10:52,"13,187s",PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,22-07-2024 15:10:39,22-07-2024 15:10:39,"0,649s",PASSED
+"navigateToUrl(""https://auth-dev.epara.app/auth/realms/backoffice-realm/protocol/openid-connect/auth?client_id=wallet-ui&redirect_uri=https%3A%2F%2Fbackofficeui-dev.epara.app%2F&state=35683512-3c68-455f-8c96-a2a67ee6b247&response_mode=fragment&response_type=code&scope=openid&nonce=effcf8fb-10a7-4c94-8558-bfac2d2c9c71&code_challenge=Qqv-S2nSKnMQquGuG-ozo8X0KcCgWMTWKiL4xjtO70Y&code_challenge_method=S256"")",Chrome 126.0.0.0,,,22-07-2024 15:10:39,22-07-2024 15:10:40,"1,198s",PASSED
+"setText(findTestObject(""Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_E-mail_username""), ""ozlem.ozdemir@finartz.com"")",Chrome 126.0.0.0,,,22-07-2024 15:10:40,22-07-2024 15:10:41,"0,649s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_Password_password""), ""JRVbc697Q+q9cSOs8Xgkxw=="")",Chrome 126.0.0.0,,,22-07-2024 15:10:41,22-07-2024 15:10:41,"0,276s",PASSED
+"click(findTestObject(""Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/input_Forgot Password_login""))",Chrome 126.0.0.0,,,22-07-2024 15:10:41,22-07-2024 15:10:43,"1,767s",PASSED
+"click(findTestObject(""Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/div_Customer Management""))",Chrome 126.0.0.0,,,22-07-2024 15:10:43,22-07-2024 15:10:47,"3,989s",PASSED
+"click(findTestObject(""Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/div_Individual""))",Chrome 126.0.0.0,,,22-07-2024 15:10:47,22-07-2024 15:10:48,"0,812s",PASSED
+"click(findTestObject(""Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/svg""))",Chrome 126.0.0.0,,,22-07-2024 15:10:48,22-07-2024 15:10:50,"1,906s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/span_Information""), ""Information"")",Chrome 126.0.0.0,,,22-07-2024 15:10:50,22-07-2024 15:10:51,"0,920s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer_Management_Detail/Page_E-Para Backoffice/span_Information""), ""Information"")",Chrome 126.0.0.0,,,22-07-2024 15:10:51,22-07-2024 15:10:52,"0,895s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,22-07-2024 15:10:52,22-07-2024 15:10:52,"0,096s",PASSED

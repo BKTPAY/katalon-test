@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Customer Management</name>
+   <tag></tag>
+   <elementGuidId>36736cdd-db47-461f-8366-c83c0d6a72cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/aside/ul/div[2]/li/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sidebar_menuItem__3mWxl.hasSubMenu</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=list >> internal:role=link[name=&quot;Customer Management&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>02731933-1204-4553-9689-e084d20afa67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sidebar_menuItem__3mWxl hasSubMenu</value>
+      <webElementGuid>9a483a8e-a7f4-4879-b08d-002cbbe54963</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-active</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>cdad7987-804e-4031-a986-d626a49b21d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customer Management</value>
+      <webElementGuid>e17f56b1-eb48-40b9-baba-c7ae632152eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;layout_layout__tZtl7&quot;]/aside[@class=&quot;sidebar_sidebar___sE6K&quot;]/ul[@class=&quot;sidebar_menu__2b3Rz&quot;]/div[2]/li[1]/a[1]/div[@class=&quot;sidebar_menuItem__3mWxl hasSubMenu&quot;]</value>
+      <webElementGuid>4c448acd-7f23-4e11-b637-1805bbf52b8e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/aside/ul/div[2]/li/a/div</value>
+      <webElementGuid>33c1fde4-da44-43e3-a810-7aea0dad7d78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::div[2]</value>
+      <webElementGuid>2d3f027f-5d7b-4a98-ab3b-39023df066b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Individual'])[1]/preceding::div[1]</value>
+      <webElementGuid>e75517e3-7026-4e9e-8916-b9d1335cf2ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business'])[1]/preceding::div[3]</value>
+      <webElementGuid>362f7260-61a6-465e-abbc-fe285a4d02ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Customer Management']/parent::*</value>
+      <webElementGuid>bb54d866-dad1-4964-938d-d353df3cf441</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/li/a/div</value>
+      <webElementGuid>4d21a8e7-040f-4e28-86d9-1fc5f667b3f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Customer Management' or . = 'Customer Management')]</value>
+      <webElementGuid>1267dbdc-145d-4bd1-8771-dc97ae75a805</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

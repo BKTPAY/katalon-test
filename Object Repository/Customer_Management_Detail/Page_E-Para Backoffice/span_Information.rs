@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Information</name>
+   <tag></tag>
+   <elementGuidId>71935d81-9b4d-45c3-b2af-c9a11b1202f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-lg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Information&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f486cb53-4468-4e16-85fb-f48741163af6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-lg</value>
+      <webElementGuid>476f0a55-b2f7-40fe-8e9b-ed9101aff612</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Information</value>
+      <webElementGuid>6eab27c4-86d0-4199-99f9-d52a4fc0e639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;layout_layout__tZtl7&quot;]/div[@class=&quot;layout_contentWrapper___Tf4B&quot;]/div[@class=&quot;layout_content__rKQNk&quot;]/div[@class=&quot;ant-card ant-card-bordered !mb-5&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;flex items-center justify-between flex-wrap gap-5&quot;]/div[1]/div[@class=&quot;flex items-center mt-5 gap-3&quot;]/span[@class=&quot;text-lg&quot;]</value>
+      <webElementGuid>68352bfc-dc6a-40fc-9369-8ed7ffe45e45</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div/div/span</value>
+      <webElementGuid>27303d1c-9652-4542-adec-03a8f15f4e9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[4]/following::span[1]</value>
+      <webElementGuid>b9bb087a-b9f8-4192-9423-d3eeefbb97f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/following::span[2]</value>
+      <webElementGuid>44d884b3-7456-48f3-90ec-812fd82a71d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Freeze'])[1]/preceding::span[1]</value>
+      <webElementGuid>477adae3-e87f-4a74-b11a-99bec04723da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[3]/preceding::span[2]</value>
+      <webElementGuid>3993e01d-3c01-409b-b91d-3bd14cd2eb45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/span</value>
+      <webElementGuid>09cccf39-c45d-4b61-ab52-bda15476985a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Information' or . = 'Information')]</value>
+      <webElementGuid>ee3340be-bbc6-4369-837e-a07f84510b85</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

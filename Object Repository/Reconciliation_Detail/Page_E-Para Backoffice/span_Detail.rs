@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Detail</name>
+   <tag></tag>
+   <elementGuidId>987d7480-3eb4-4ec0-ba7e-37a349d228be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(2) > span.ant-breadcrumb-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div/nav/ol/li[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=navigation >> internal:text=&quot;Detail&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e5fddb62-acbf-4a51-8ab8-adf39ae2ada4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-breadcrumb-link</value>
+      <webElementGuid>414113b6-80bb-458a-8e00-b9b0f6053beb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Detail</value>
+      <webElementGuid>22d1b6c8-5367-471d-b964-01d52123df02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;layout_layout__tZtl7&quot;]/div[@class=&quot;layout_contentWrapper___Tf4B&quot;]/div[@class=&quot;layout_content__rKQNk&quot;]/div[@class=&quot;ant-card ant-card-bordered !mb-5&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;flex items-center justify-between flex-wrap gap-5&quot;]/div[1]/nav[@class=&quot;ant-breadcrumb&quot;]/ol[1]/li[2]/span[@class=&quot;ant-breadcrumb-link&quot;]</value>
+      <webElementGuid>0e46f7c1-f3d5-4ca0-8e61-36bc0f568fb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div/div/div/div/nav/ol/li[2]/span</value>
+      <webElementGuid>fcdd186c-6d95-4a93-9fca-de8322eb906c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::span[1]</value>
+      <webElementGuid>ceb658c4-bbeb-479c-9fe1-5424862b930d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reconciliation'])[2]/following::span[2]</value>
+      <webElementGuid>8bd36ab8-3ef6-4da9-8116-40bfd2c9304c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[2]/preceding::span[1]</value>
+      <webElementGuid>4b9d36cc-c1c3-4a3c-ad76-8ede5bfa74a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[2]/preceding::span[2]</value>
+      <webElementGuid>8cee7c8f-0116-42ad-9b47-f81be46a3061</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Detail']/parent::*</value>
+      <webElementGuid>f46140f8-01c1-42a7-be34-cd43775486f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/span</value>
+      <webElementGuid>d172e4ca-bd67-4c59-94f5-397d8f28b349</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Detail' or . = 'Detail')]</value>
+      <webElementGuid>4be1603e-95a8-4404-baf9-5467f1a95a86</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
