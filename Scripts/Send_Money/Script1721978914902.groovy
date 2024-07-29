@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -26,11 +27,14 @@ WebUI.callTestCase(findTestCase('Login Success'), [:], FailureHandling.STOP_ON_F
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
+
+Mobile.startApplication(RunConfiguration.getProjectDir() +'/app-release (3).apk', true)
+
 Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView - Transfero'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView - Drgo Para'), 0)
 
-not_run: Mobile.startExistingApplication('/home/vsts/work/1/s/app-release (3).apk', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(RunConfiguration.getProjectDir() +'/app-release (3).apk', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -68,5 +72,5 @@ WebUI.delay(4)
 Mobile.verifyElementText(findTestObject('Object Repository/Send_Money/android.widget.TextView - Drgimi i parave u krye me sukses'), 
     'Dërgimi i parave u krye me sukses')
 
-not_run: Mobile.closeApplication()
+Mobile.closeApplication()
 
