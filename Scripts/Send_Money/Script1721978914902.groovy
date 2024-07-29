@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Login Success'), [:], FailureHandling.STOP_ON_F
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-not_run: Mobile.startApplication(RunConfiguration.getProjectDir() +'/app-release (3).apk', true)
+not_run: Mobile.startApplication(RunConfiguration.getProjectDir() +'/app-release (3)xxx.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView - Transfero'), 0)
 
