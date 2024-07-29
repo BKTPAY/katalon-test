@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_Mobile,,,,26-07-2024 18:43:16,26-07-2024 18:43:16,0.789s,FAILED
+,,,,,,,
+Test Cases/Login Success,,,,26-07-2024 18:43:16,26-07-2024 18:43:16,0.023s,FAILED
+"startApplication(""/Users/finartz/Downloads/app-release (3).apk"", true)",,,,26-07-2024 18:43:16,26-07-2024 18:43:16,0.006s,FAILED
+,,,,,,,
+Test Cases/Send_Money,,,,26-07-2024 18:43:16,26-07-2024 18:43:16,0.083s,FAILED
+"callTestCase(findTestCase(""Login Success""), [:], STOP_ON_FAILURE)",,,,26-07-2024 18:43:16,26-07-2024 18:43:16,0.073s,FAILED
