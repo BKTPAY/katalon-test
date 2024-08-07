@@ -7,7 +7,7 @@ pool:
 steps:
 - script: docker pull katalonstudio/katalon
   displayName: 'Pull katalon studio images'
-- script: RUN apt-get install -y git-core curl build-essential openssl libssl-dev \  && git clone https://github.com/nodejs/node.git \ && cd node \ && ./configure \ && make \ && sudo make install
+- script: docker run -t --rm -v "$(pwd)":apt-get install -y git-core curl build-essential openssl libssl-dev \  && git clone https://github.com/nodejs/node.git \ && cd node \ && ./configure \ && make \ && sudo make install
   displayName: node
 - script: docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon katalon-execute.sh -browserType="Android" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Mobile" -apiKey="554d7f82-ac15-4b60-aab3-739c97658f70" --config -webui.autoUpdateDrivers=true
   displayName: 'Runnning Katalon TS_RegressionTest'
