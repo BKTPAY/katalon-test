@@ -7,7 +7,7 @@ pool:
 steps:
 - script: docker pull katalonstudio/katalon
   displayName: 'Pull katalon studio images'
-- script: docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -apiKey="554d7f82-ac15-4b60-aab3-739c97658f70"
+- script: docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon katalon-execute.sh -browserType="Android" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Mobile" -apiKey="554d7f82-ac15-4b60-aab3-739c97658f70" --config -webui.autoUpdateDrivers=true
   displayName: 'Runnning Katalon TS_RegressionTest'
 - task: PublishPipelineArtifact@0
   inputs:
