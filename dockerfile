@@ -27,12 +27,12 @@ ENV PATH $PATH:/opt/android-sdk/emulator
 ENV ANDROID_AVD_HOME /root/.android/avd
 
 # Install Android SDK packages
-RUN yes | sdkmanager --install "platform-tools" "platforms;android-25" "system-images;android-25;default;armeabi-v7a" "emulator"
+RUN yes | sdkmanager --install "platform-tools" "platforms;android-25" "system-images;android-25;google_apis;armeabi-v7a" "emulator"
 RUN yes | sdkmanager --licenses
 
 # Create Android Virtual Device (AVD)
 RUN mkdir -p /root/.android && touch /root/.android/emu-update-last-check.ini \
-    && echo "no" | avdmanager create avd -n test_avd -k "system-images;android-25;default;armeabi-v7a" --device "Nexus 4"
+    && echo "no" | avdmanager create avd -n test_avd -k "system-images;android-25;google_apis;armeabi-v7a" --device "Nexus 4"
 
 # Copy entrypoint script
 COPY entrypoint.sh /entrypoint.sh
