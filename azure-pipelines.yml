@@ -17,7 +17,7 @@ steps:
       $(Build.BuildId)
 
 - script: |
-    docker run -d --name android_emulator -v $(System.DefaultWorkingDirectory):/workspace katalon-test:$(Build.BuildId)
+    docker run -d --name android_emulator -v $(System.DefaultWorkingDirectory):/workspace docker.io/bktpay/katalon-test:$(Build.BuildId)
   displayName: 'Run Android emulator in Docker container'
 
 - script: |
