@@ -1,4 +1,5 @@
 #!/bin/bash
+ENV DEBIAN_FRONTEND=noninteractive
  apt-get install -y at-spi2-core
  apt-get install -y libxkbcommon-x11-0
  apt-get install -y xorg
