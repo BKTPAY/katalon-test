@@ -37,6 +37,7 @@ RUN mkdir -p /root/.android && touch /root/.android/emu-update-last-check.ini \
   
 RUN adb devices
 # Copy entrypoint script
+COPY . /test
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
