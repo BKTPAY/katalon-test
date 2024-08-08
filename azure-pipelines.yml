@@ -17,5 +17,5 @@ steps:
     tags: |
       $(Build.BuildId)
 - script: |
-    docker run -t --rm -v "$(pwd)":/katalon/katalon/source docker.io/bktpay/katalon-test:$(Build.BuildId) katalonc.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web"
+    docker run -t --rm -v "$(pwd)":/katalon/katalon/source docker.io/bktpay/katalon-test:$(Build.BuildId) katalonc.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web"  -apiKey="554d7f82-ac15-4b60-aab3-739c97658f70" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true 
   displayName: 'Run Android emulator in Docker container'
