@@ -17,5 +17,5 @@ steps:
     tags: |
       $(Build.BuildId)
 - script: |
-    docker run -t --name android_emulator -v $(System.DefaultWorkingDirectory):/workspace docker.io/bktpay/katalon-test:$(Build.BuildId)
+    docker run -t --rm -v "$(pwd)":/katalon/katalon/source docker.io/bktpay/katalon-test:$(Build.BuildId) katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web"
   displayName: 'Run Android emulator in Docker container'
