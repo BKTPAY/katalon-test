@@ -4,7 +4,7 @@
  apt-get install -y xorg
  apt-get install -y xvfb
 xhost +
-export DISPLAY=:1
+export DISPLAY=:0
 # Start the emulator in headless mode
 $ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot-load -no-snapshot-save -no-skin  -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect &
 
