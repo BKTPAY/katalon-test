@@ -17,6 +17,7 @@ adb shell input keyevent 82
 # ./gradlew connectedAndroidTest
 pwd
 ls
+katalonc
 
 katalonc.sh -projectPath=/test -noSplash -runMode=console  -retry=0 -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f40e6675-f266-4c69-a67b-1637d512d361" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/usr/local/lib/node_modules/appium"
 
