@@ -1,6 +1,6 @@
 #!/bin/bash
  apt install at-spi2-core
- apt-get install libxkbcommon-x11-0
+ #apt-get install libxkbcommon-x11-0
  apt-get install xorg
  apt-get install -y xvfb
 xhost + local:
