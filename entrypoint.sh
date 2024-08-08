@@ -1,5 +1,8 @@
 #!/bin/bash
-
+sudo apt install at-spi2-core
+sudo apt-get install libxkbcommon-x11-0
+sudo apt-get install xorg
+sudo apt-get install -y xvfb
 # Start the emulator in headless mode
 $ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot-load -no-snapshot-save -no-skin  -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect &
 
