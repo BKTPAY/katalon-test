@@ -35,9 +35,6 @@ RUN mkdir -p /root/.android && touch /root/.android/emu-update-last-check.ini \
     && echo "no" | avdmanager create avd -n test_avd -k "system-images;android-25;google_apis;armeabi-v7a" --device "Nexus 4"
   
 RUN adb devices
-RUN adb wait-for-device
-RUN adb shell input keyevent 82
-RUN adb devices
 # Copy entrypoint script
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
