@@ -22,4 +22,7 @@ steps:
 
 - script: |
     docker exec android_emulator adb devices
+    docker exec adb wait-for-device
+    docker exec adb shell input keyevent 82
+    docker exec adb devices
   displayName: 'Run Android tests'
