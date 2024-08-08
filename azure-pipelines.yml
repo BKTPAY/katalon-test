@@ -26,5 +26,5 @@ steps:
     docker exec android_emulator adb wait-for-device
     docker exec android_emulator adb shell input keyevent 82
     docker exec android_emulator adb devices
-    docker exec android_emulator ls
+    docker exec -it -w /katalonstudio/katalon/ android_emulator ls
   displayName: 'Run Android tests'
