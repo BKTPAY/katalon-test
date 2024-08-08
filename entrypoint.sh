@@ -11,4 +11,4 @@ $ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot
 # ./gradlew connectedAndroidTest
 
 # Keep the container running
-# tail -f /dev/null
+tail -f /dev/null
