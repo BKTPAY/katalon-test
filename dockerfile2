@@ -1,5 +1,5 @@
 # Use the specific Katalon Docker image as the base
-FROM katalonstudio/katalon
+FROM katalonstudio/katalon:8-latest
 
 # Install dependencies
 RUN apt-get update -y && apt-get install -y \
