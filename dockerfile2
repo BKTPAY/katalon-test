@@ -25,6 +25,7 @@ ENV PATH $PATH:/opt/android-sdk/cmdline-tools/latest/bin
 ENV PATH $PATH:/opt/android-sdk/platform-tools
 ENV PATH $PATH:/opt/android-sdk/emulator
 ENV ANDROID_AVD_HOME /root/.android/avd
+ENV DEBIAN_FRONTEND=noninteractive
 
 # Install Android SDK packages
 RUN yes | sdkmanager --install "platform-tools" "platforms;android-25" "system-images;android-25;google_apis;armeabi-v7a" "emulator"
