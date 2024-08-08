@@ -3,7 +3,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'macOS-14'
+  vmImage: 'macOS-latest'
 
 steps:
 - checkout: self
