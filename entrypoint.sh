@@ -3,6 +3,8 @@
  apt-get install -y libxkbcommon-x11-0
  apt-get install -y xorg
  apt-get install -y xvfb
+ apt-get install openjdk-17-jre
+
 
 # Start the emulator in headless mode
 $ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot-load -no-snapshot-save -no-skin  -no-window -no-audio -no-boot-anim -gpu off &
