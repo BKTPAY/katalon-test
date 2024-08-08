@@ -16,4 +16,6 @@ steps:
     Dockerfile: '**/dockerfile2'
     tags: |
       $(Build.BuildId)
-
+- script: |
+    docker run -d --name android_emulator -v $(System.DefaultWorkingDirectory):/workspace docker.io/bktpay/katalon-test::$(Build.BuildId)
+  displayName: 'Run Android emulator in Docker container'
