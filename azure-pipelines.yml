@@ -13,18 +13,11 @@ steps:
   inputs:
     repository: '$(Build.Repository.Name)'
     command: 'build'
-    Dockerfile: '**/dockerfile'
+    Dockerfile: '**/dockerfile2'
     tags: |
       $(Build.BuildId)
 
 - script: |
-    docker run -d --name android_emulator -v $(System.DefaultWorkingDirectory):/workspace docker.io/bktpay/katalon-test:$(Build.BuildId)
-  displayName: 'Run Android emulator in Docker container'
+    docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -noSplash -runMode=console  -retry=0 -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="554d7f82-ac15-4b60-aab3-739c97658f70" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true 
+  displayName: 'Run'
 
-- script: |
-    docker exec android_emulator adb devices
-    docker exec android_emulator adb wait-for-device
-    docker exec android_emulator adb shell input keyevent 82
-    docker exec android_emulator adb devices
-    docker exec -it -w /katalonstudio/katalon/ android_emulator ls
-  displayName: 'Run Android tests'
