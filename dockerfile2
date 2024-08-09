@@ -32,6 +32,7 @@ RUN apt-get install -y xorg
 RUN apt-get install -y xvfb
 RUN apt-get install -y openjdk-17-jre
 # Install Android SDK packages
+RUN cd /opt/android-sdk/cmdline-tools
 RUN yes | sdkmanager --install "platform-tools" "platforms;android-25" "system-images;android-25;google_apis;armeabi-v7a" "emulator"
 RUN yes | sdkmanager --licenses
 
