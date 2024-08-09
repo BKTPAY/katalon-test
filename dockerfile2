@@ -1,9 +1,6 @@
 # Use the specific Katalon Docker image as the base
 FROM katalonstudio/katalon:7.7.0
 
-# Install dependencies
-RUN apt-get update -y && apt-get install -y \
-    openjdk-11-jdk wget unzip curl
 
 # Install Node.js and npm
 RUN curl -sL https://deb.nodesource.com/setup_18.x | bash - \
