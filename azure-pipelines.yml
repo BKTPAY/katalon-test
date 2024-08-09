@@ -21,6 +21,8 @@ steps:
  
   displayName: 'Run Android emulator in Docker container'
 - task: PublishPipelineArtifact@1
+  condition: succeededOrFailed() 
   inputs:
     targetPath: '$(Pipeline.Workspace)'
     publishLocation: 'pipeline'
+    
