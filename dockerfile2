@@ -9,7 +9,7 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - \
     && apt-get install -y nodejs
 
 # Install Appium
-RUN npm install -g appium
+RUN npm install -g appium@1.15.1
 
 # Install Android command line tools
 RUN mkdir -p /opt/android-sdk/cmdline-tools
