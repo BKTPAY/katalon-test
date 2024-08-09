@@ -1,5 +1,5 @@
 # Use the specific Katalon Docker image as the base
-FROM katalonstudio/katalon
+FROM katalonstudio/ubuntu-20.04
 
 RUN apt-get update -y && apt-get install -y \
     wget unzip curl
