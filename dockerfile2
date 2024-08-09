@@ -20,11 +20,11 @@ RUN wget https://dl.google.com/android/repository/commandlinetools-linux-9477386
     && mv cmdline-tools latest
 
 # Set environment variables
- ENV ANDROID_SDK_ROOT /opt/android-sdk
- ENV PATH $PATH:/opt/android-sdk/cmdline-tools/latest/bin
- ENV PATH $PATH:/opt/android-sdk/platform-tools
- ENV PATH $PATH:/opt/android-sdk/emulator
- ENV ANDROID_AVD_HOME /root/.android/avd
+ENV ANDROID_SDK_ROOT /opt/android-sdk
+ENV PATH $PATH:/opt/android-sdk/cmdline-tools/latest/bin
+ENV PATH $PATH:/opt/android-sdk/platform-tools
+ENV PATH $PATH:/opt/android-sdk/emulator
+ENV ANDROID_AVD_HOME /root/.android/avd
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get install -y at-spi2-core
 RUN apt-get install -y libxkbcommon-x11-0
