@@ -20,6 +20,7 @@ RUN wget https://dl.google.com/android/repository/commandlinetools-linux-9477386
 
 # Set environment variables
 ENV ANDROID_SDK_ROOT /opt/android-sdk
+ENV ANDROID_HOME /opt/android-sdk
 ENV PATH $PATH:/opt/android-sdk/cmdline-tools/latest/bin
 ENV PATH $PATH:/opt/android-sdk/platform-tools
 ENV PATH $PATH:/opt/android-sdk/emulator
