@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-Mobile.startApplication('/home/vsts/work/1/s/app-release (3).apk', true)
+Mobile.startApplication('app-release (3).apk', true)
 
 WebUI.delay(2)
 
