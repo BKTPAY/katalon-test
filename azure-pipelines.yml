@@ -23,6 +23,6 @@ steps:
 - task: PublishPipelineArtifact@1
   condition: succeededOrFailed() 
   inputs:
-    targetPath: '/test'
+    targetPath: '$(Pipeline.Workspace)'
     publishLocation: 'pipeline'
     
