@@ -7,7 +7,7 @@ $ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot
 # Wait for the emulator to start
 adb wait-for-device
 adb shell input keyevent 82
-
+adb devicec
 # Optionally, run your tests here
 # ./gradlew connectedAndroidTest
 pwd
