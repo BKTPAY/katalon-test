@@ -17,7 +17,7 @@ steps:
     tags: |
       $(Build.BuildId)
 - script: |
-    docker run -t --rm -v $(pwd):/tmp/project docker.io/bktpay/katalon-test:$(Build.BuildId) katalonc.sh -projectPath=/tmp/project -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f40e6675-f266-4c69-a67b-1637d512d361" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/usr/local/lib/node_modules/appium"
+    docker run -t --rm -v $(pwd):/tmp/project docker.io/bktpay/katalon-test:$(Build.BuildId) katalonc.sh -projectPath=/tmp/project -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f40e6675-f266-4c69-a67b-1637d512d361" -appiumDirectory="/usr/local/lib/node_modules/appium"
  
   displayName: 'Run Android emulator in Docker container'
 - task: PublishPipelineArtifact@1
