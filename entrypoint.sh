@@ -4,7 +4,7 @@
  apt-get install -y xorg
  apt-get install -y xvfb
  apt-get install -y openjdk-17-jre
-
+cd /tmp/project
 
 # Start the emulator in headless mode
 $ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot-load -no-snapshot-save -no-skin  -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect &
