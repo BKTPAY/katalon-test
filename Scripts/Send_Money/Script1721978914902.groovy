@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView 
 
 Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView - Drgo Para'), 0)
 
-Mobile.startExistingApplication(RunConfiguration.getProjectDir() +'/app-release (3).apk', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('/app-release (3).apk', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
