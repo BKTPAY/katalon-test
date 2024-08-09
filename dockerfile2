@@ -2,7 +2,7 @@
 FROM katalonstudio/katalon:7.7.0
 
 RUN apt-get update -y && apt-get install -y \
-   openjdk-11-jdk wget unzip curl
+   openjdk-8-jdk wget unzip curl
 
 # Install Node.js and npm
 RUN curl -sL https://deb.nodesource.com/setup_18.x | bash - \
