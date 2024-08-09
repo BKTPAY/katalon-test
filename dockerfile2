@@ -26,7 +26,11 @@ ENV PATH $PATH:/opt/android-sdk/platform-tools
 ENV PATH $PATH:/opt/android-sdk/emulator
 ENV ANDROID_AVD_HOME /root/.android/avd
 ENV DEBIAN_FRONTEND=noninteractive
-
+RUN apt-get install -y at-spi2-core
+RUN apt-get install -y libxkbcommon-x11-0
+RUN apt-get install -y xorg
+RUN apt-get install -y xvfb
+RUN apt-get install -y openjdk-17-jre
 # Install Android SDK packages
 RUN yes | sdkmanager --install "platform-tools" "platforms;android-25" "system-images;android-25;google_apis;armeabi-v7a" "emulator"
 RUN yes | sdkmanager --licenses
