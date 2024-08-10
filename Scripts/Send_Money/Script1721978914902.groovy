@@ -28,13 +28,13 @@ WebUI.callTestCase(findTestCase('Login Success'), [:], FailureHandling.STOP_ON_F
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
 
-Mobile.startApplication('app-release (3).apk', false)
+Mobile.startApplication('epara.apk', false)
 
 Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView - Transfero'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView - Drgo Para'), 0)
 
-Mobile.startExistingApplication('/app-release (3).apk', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('epara.apk', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
