@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('app-release (3).apk', true)
 
-WebUI.delay(2)
+WebUI.delay(200)
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Vijo'), 0)
 
