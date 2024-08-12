@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-def path = RunConfiguration.getProjectDir() + '/Data Files/app-release (4).apk'
+def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
 Mobile.startApplication(path, true)
 
