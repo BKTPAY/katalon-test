@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Send_Money_Receipt</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1779a237-6f3e-4dd6-b78f-aa1138c9cc04</testCaseGuid>
-</TestCaseEntity>

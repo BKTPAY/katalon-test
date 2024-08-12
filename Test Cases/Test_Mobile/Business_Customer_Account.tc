@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Business_Customer_Account</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>addc0e0b-3d83-4d44-8b2d-2c8cf37ec3ac</testCaseGuid>
-</TestCaseEntity>

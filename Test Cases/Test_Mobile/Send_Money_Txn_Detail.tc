@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Send_Money_Txn_Detail</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8d6037f3-b490-4e92-9798-6619674a1146</testCaseGuid>
-</TestCaseEntity>
