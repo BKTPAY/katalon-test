@@ -3,7 +3,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-21.04'
+  vmImage: 'ubuntu-latest'
 
 steps:
 - checkout: self
