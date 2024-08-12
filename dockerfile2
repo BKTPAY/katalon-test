@@ -10,8 +10,8 @@ RUN curl -sL https://deb.nodesource.com/setup_20.x | bash - \
 
 # Install Appium
 RUN npm install -g appium
-npm install -g appium-doctor
-appium-doctor
+RUN npm install -g appium-doctor
+RUN appium-doctor
 
 # Install Android command line tools
 RUN mkdir -p /opt/android-sdk/cmdline-tools
