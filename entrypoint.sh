@@ -3,11 +3,19 @@
 
 # Start the emulator in headless mode
 $ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot-load -no-snapshot-save -no-skin  -no-window -no-audio -no-boot-anim -no-boot-anim -gpu swiftshader_indirect &
+sleep 30
 
 # Wait for the emulator to start
 adb wait-for-device
+boot_completed=false
+while [ "$boot_completed" != "1" ]; do
+    boot_completed=$(adb shell getprop sys.boot_completed | tr -d '\r')
+    sleep 2
+done
 adb shell input keyevent 82
 adb devices
+adb logcat -d > /tmp/emulator_logcat.txt
+
 # Optionally, run your tests here
 # ./gradlew connectedAndroidTest
 pwd
