@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test_Mobile/Login Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.startApplication('epara.apk', true)
+not_run: Mobile.startApplication('epara.apk', false)
 
 Mobile.tap(findTestObject('Object Repository/Send_Money_Txn_Detail/android.widget.TextView - Shih t gjitha'), 0)
 WebUI.delay(1)
