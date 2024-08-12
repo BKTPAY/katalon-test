@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-Mobile.startApplication('epara.apk', true)
+Mobile.startApplication('/Data Files/epara.apk', true)
 
 WebUI.delay(200)
 
