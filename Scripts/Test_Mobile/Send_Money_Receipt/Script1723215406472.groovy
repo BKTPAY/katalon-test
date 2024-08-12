@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test_Mobile/Send_Money_Txn_Detail'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.startApplication('/Users/finartz/Downloads/app-release (3).apk', true)
+not_run: Mobile.startApplication('epara.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Send_Money_Receipt/android.widget.TextView - Shkarko'), 0)
 
