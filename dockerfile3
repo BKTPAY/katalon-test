@@ -1,0 +1,46 @@
+# Use the specific Katalon Docker image as the base
+FROM katalonstudio/katalon:9.0.0
+
+RUN apt-get update -y && apt-get install -y \
+    wget unzip curl
+
+# Install Node.js and npm
+RUN curl -sL https://deb.nodesource.com/setup_20.x | bash - \
+    && apt-get install -y nodejs
+
+# Install Appium
+RUN npm install -g appium@1.22.1
+
+# Install Android command line tools
+RUN mkdir -p /opt/android-sdk/cmdline-tools
+WORKDIR /opt/android-sdk/cmdline-tools
+RUN wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip -O commandlinetools.zip \
+    && unzip commandlinetools.zip \
+    && mv cmdline-tools latest
+
+# Set environment variables
+ENV ANDROID_SDK_ROOT /opt/android-sdk
+ENV PATH $PATH:/opt/android-sdk/cmdline-tools/latest/bin
+ENV PATH $PATH:/opt/android-sdk/platform-tools
+ENV PATH $PATH:/opt/android-sdk/emulator
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get install -y at-spi2-core
+RUN apt-get install -y libxkbcommon-x11-0
+RUN apt-get install -y xorg
+RUN apt-get install -y xvfb
+# Install Android SDK packages
+RUN yes | sdkmanager --install "platform-tools" "platforms;android-30" "system-images;android-30;google_apis;x86_64" "emulator"
+RUN yes | sdkmanager --licenses
+
+# Create Android Virtual Device (AVD)
+RUN mkdir -p /root/.android && touch /root/.android/emu-update-last-check.ini \
+    && echo "no" | avdmanager create avd --force -n test_avd -k "system-images;android-30;google_apis;x86_64" --device "Nexus 4"
+  
+RUN adb devices
+# Copy entrypoint script
+COPY . /test
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+# Set entrypoint
+ENTRYPOINT ["/entrypoint.sh"]
