@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def path = RunConfiguration.getProjectDir() + '/Data Files/app-release (4).apk'
+def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
 Mobile.startApplication(path, true)
 
