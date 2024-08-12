@@ -9,7 +9,7 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - \
     && apt-get install -y nodejs
 
 # Install Appium
-RUN npm install -g appium@1.15.1
+RUN npm install -g appium@1.12.1
 
 # Install Android command line tools
 RUN mkdir -p /opt/android-sdk/cmdline-tools
@@ -23,7 +23,6 @@ ENV ANDROID_SDK_ROOT /opt/android-sdk
 ENV PATH $PATH:/opt/android-sdk/cmdline-tools/latest/bin
 ENV PATH $PATH:/opt/android-sdk/platform-tools
 ENV PATH $PATH:/opt/android-sdk/emulator
-ENV ANDROID_AVD_HOME /root/.android/avd
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get install -y at-spi2-core
 RUN apt-get install -y libxkbcommon-x11-0
