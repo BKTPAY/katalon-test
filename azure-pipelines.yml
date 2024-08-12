@@ -13,7 +13,7 @@ steps:
   inputs:
     repository: '$(Build.Repository.Name)'
     command: 'build'
-    Dockerfile: '**/dockerfile2'
+    Dockerfile: '**/dockerfile3'
     tags: |
       $(Build.BuildId)
 - script: |
