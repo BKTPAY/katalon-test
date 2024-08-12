@@ -25,9 +25,8 @@ import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 WebUI.callTestCase(findTestCase('Test_Mobile/Login Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
-
-not_run: Mobile.startApplication('/Users/finartz/Downloads/app-release (3).apk', true)
-
+def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
+Mobile.startApplication(path, true)
 Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView - Transfero'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView - Drgo Para'), 0)
