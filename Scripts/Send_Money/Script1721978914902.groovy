@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('Login Success'), [:], FailureHandling.STOP_ON_F
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
 
-Mobile.startApplication('epara.apk', true)
+Mobile.startApplication('/Data Files/epara.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Send_Money/android.widget.TextView - Transfero'), 0)
 
