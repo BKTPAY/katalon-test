@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ALB-KSV_Check</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d9830ba-3bf4-43fe-939f-a1f643bb6d1e</testCaseGuid>
+</TestCaseEntity>
