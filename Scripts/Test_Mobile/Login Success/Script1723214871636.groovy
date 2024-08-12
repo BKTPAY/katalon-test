@@ -20,9 +20,9 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
-Mobile.startApplication(path, true)
+Mobile.startApplication(path, false)
 
-WebUI.delay(60)
+WebUI.delay(200)
 
 Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria'), 0)
 
