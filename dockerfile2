@@ -1,5 +1,5 @@
 # Use the specific Katalon Docker image as the base
-FROM katalonstudio/katalon:9.0.0
+FROM katalonstudio/katalon:7.7.0
 
 RUN apt-get update -y && apt-get install -y \
     wget unzip curl \
@@ -23,7 +23,7 @@ RUN curl -sL https://deb.nodesource.com/setup_20.x | bash - \
     && apt-get install -y nodejs
 
 # Install Appium
-RUN npm install -g appium@2.5.1
+RUN npm install -g appium@1.15.1
 
 # Install Android command line tools
 RUN mkdir -p /opt/android-sdk/cmdline-tools
