@@ -2,7 +2,7 @@
 
 
 # Start the emulator in headless mode
-$ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot-load -no-snapshot-save -no-skin  -no-window -no-audio -no-boot-anim -no-boot-anim -gpu swiftshader_indirect > /tmp/emulator.log 2>&1 &
+$ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot-load -no-snapshot-save -no-skin  -no-window -no-audio -no-boot-anim -no-boot-anim  > /tmp/emulator.log 2>&1 &
 tail -f /tmp/emulator.log &
 
 sleep 30
