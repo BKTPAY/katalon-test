@@ -1,4 +1,4 @@
-ho #!/bin/bash
+#!/bin/bash
 
 
 # Start the emulator in headless mode
