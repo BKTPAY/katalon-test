@@ -51,8 +51,7 @@ RUN yes | sdkmanager --install "platform-tools" "platforms;android-35" "system-i
 RUN yes | sdkmanager --licenses
 
 # Create Android Virtual Device (AVD)
-RUN mkdir -p /root/.android && touch /root/.android/emu-update-last-check.ini \
-    && echo "no" | avdmanager create avd --force -n test_avd -k "system-images;android-25;google_apis;armeabi-v7a" --device "Nexus 4"
+RUN  echo "no" | avdmanager create avd --force -n test_avd -k "system-images;android-25;google_apis;armeabi-v7a" --device "Nexus 4"
   
 RUN adb devices
 # Copy entrypoint script
