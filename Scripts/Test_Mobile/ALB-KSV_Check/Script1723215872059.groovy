@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
-Mobile.startApplication(path, false)
+Mobile.startApplication(path, true)
 
 WebUI.delay(200)
 
