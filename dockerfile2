@@ -47,12 +47,12 @@ RUN apt-get install -y xorg
 RUN apt-get install -y xvfb
 RUN apt-get install -y libqt5widgets5
 # Install Android SDK packages
-RUN yes | sdkmanager --install "platform-tools" "platforms;android-25" "system-images;android-25;google_apis;x86" "emulator"
+RUN yes | sdkmanager --install "platform-tools" "platforms;android-35" "system-images;android-35;google_apis;arm64-v8a" "emulator"
 RUN yes | sdkmanager --licenses
 
 # Create Android Virtual Device (AVD)
 RUN mkdir -p /root/.android && touch /root/.android/emu-update-last-check.ini \
-    && echo "no" | avdmanager create avd --force -n test_avd -k "system-images;android-25;google_apis;x86" --device "Nexus 4"
+    && echo "no" | avdmanager create avd --force -n test_avd -k "system-images;android-35;google_apis;arm64-v8a" --device "Nexus 4"
   
 RUN adb devices
 # Copy entrypoint script
