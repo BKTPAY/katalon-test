@@ -6,7 +6,10 @@ $ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot
 tail -f /tmp/emulator.log &
 
 sleep 30
-
+export DISPLAY=:99
+xhost +local:root
+export LIBGL_ALWAYS_INDIRECT=1
+export QT_X11_NO_MITSHM=1
 # Wait for the emulator to start
 adb wait-for-device
 boot_completed=false
