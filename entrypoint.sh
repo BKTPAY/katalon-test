@@ -5,8 +5,9 @@
 $ANDROID_SDK_ROOT/emulator/emulator -avd test_avd  -use-system-libs -no-snapshot-load -no-snapshot-save -no-skin  -no-window -no-audio -no-boot-anim -no-boot-anim -gpu off  &
 
 sleep 30
-export DISPLAY=:99
-xhost +local:root
+DISPLAY=:0.0
+export DISPLAY
+xhost +
 export LIBGL_ALWAYS_INDIRECT=1
 export QT_X11_NO_MITSHM=1
 # Wait for the emulator to start
