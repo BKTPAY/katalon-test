@@ -20,7 +20,7 @@ while [ "$boot_completed" != "1" ]; do
 done
 
 adb shell input keyevent 82
-adb devices
+adb kill-server && adb devices
 
 # Optionally, run your tests here
 # ./gradlew connectedAndroidTest
