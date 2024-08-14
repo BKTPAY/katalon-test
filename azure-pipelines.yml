@@ -15,7 +15,8 @@ jobs:
       - script: |
           npm install -g appium
         displayName: 'appium'
-
+      -script: |
+           apt-get install -y at-spi2-core  libxkbcommon-x11-0  xorg xvfb
       - script: |
           $ANDROID_HOME/tools/bin/sdkmanager --list
         displayName: 'List already installed Android packages'
