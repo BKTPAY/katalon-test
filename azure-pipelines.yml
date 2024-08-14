@@ -13,7 +13,7 @@ jobs:
           versionSpec: '20.x'
         displayName: 'Install Node.js'
       - script: |
-          npm install -g appium@1.22.3
+          npm install -g appium@2.4.5
         displayName: 'appium'
 
       - script: |
