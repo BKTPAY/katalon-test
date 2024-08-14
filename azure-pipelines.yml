@@ -14,6 +14,8 @@ jobs:
         displayName: 'Install Node.js'
       - script: |
           npm install -g appium@1.22.3 --unsafe-perm=true --allow-root
+          npm install -g appium-doctor
+          appium-doctor
         displayName: 'appium'
       - task: JavaToolInstaller@0
         inputs:
