@@ -13,7 +13,7 @@ jobs:
           versionSpec: '20.x'
         displayName: 'Install Node.js'
       - script: |
-          npm install -g appium@2.4.5 --unsafe-perm=true --allow-root
+          npm install -g appium@2.0 --unsafe-perm=true --allow-root
         displayName: 'appium'
 
       - script: |
