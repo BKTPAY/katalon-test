@@ -17,9 +17,11 @@ jobs:
         displayName: 'appium'
       - task: JavaToolInstaller@0
         inputs:
-          versionSpec: '8'
+          versionSpec: '17'
           jdkArchitectureOption: 'x64'
           jdkSourceOption: 'PreInstalled'
+        displayName: 'Install java.js'
+  
       - script: |
           $ANDROID_HOME/tools/bin/sdkmanager --list
         displayName: 'List already installed Android packages'
