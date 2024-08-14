@@ -37,6 +37,7 @@ jobs:
         displayName: 'Create AVD'
 
       - script: |
+          export KATALON_JAVA_HOME = /Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.422-5/x64/Contents/Home/
           $ANDROID_HOME/platform-tools/adb devices
           echo '---'
           nohup $ANDROID_HOME/emulator/emulator -avd test_android_emulator -no-snapshot -no-skin -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect  > /dev/null 2>&1 & $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
