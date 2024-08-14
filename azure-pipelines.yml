@@ -15,7 +15,11 @@ jobs:
       - script: |
           npm install -g appium@1.22.0 --unsafe-perm=true --allow-root
         displayName: 'appium'
-
+      - task: JavaToolInstaller@0
+        inputs:
+          versionSpec: '8'
+          jdkArchitectureOption: 'x64'
+          jdkSourceOption: 'PreInstalled'
       - script: |
           $ANDROID_HOME/tools/bin/sdkmanager --list
         displayName: 'List already installed Android packages'
