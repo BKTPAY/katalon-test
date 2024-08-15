@@ -13,7 +13,7 @@ jobs:
           versionSpec: '20.x'
         displayName: 'Install Node.js'
       - script: |
-          npm install -g appium --unsafe-perm=true --allow-root
+          npm install -g appium@1.7 --unsafe-perm=true --allow-root
           appium driver install xcuitest
           npm install -g appium-doctor
           appium-doctor
