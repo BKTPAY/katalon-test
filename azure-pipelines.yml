@@ -45,7 +45,14 @@ jobs:
           echo '---'
           $ANDROID_HOME/emulator/emulator -list-avds
         displayName: 'Create AVD'
-
+      
+      - task: JavaToolInstaller@0
+        inputs:
+          versionSpec: '17'
+          jdkArchitectureOption: 'x64'
+          jdkSourceOption: 'PreInstalled'
+        displayName: 'Install java.js'
+  
       - script: |
           export KATALON_JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.422-5/x64/Contents/Home/
           export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.422-5/x64/Contents/Home/
