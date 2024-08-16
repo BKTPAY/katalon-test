@@ -70,7 +70,7 @@ jobs:
           curl -O https://download.katalon.com/9.0.0/Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
           tar -xzvf Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
           ls
-          mv Katalon_Studio_Engine /Applications/Katalon_Studio_Engine
+          mv Katalon_Studio_Engine_MacOS-9.0.0 /Applications/Katalon_Studio_Engine
           ls
           cd  /Applications/Katalon_Studio_Engine
           chmod +x katalonc
