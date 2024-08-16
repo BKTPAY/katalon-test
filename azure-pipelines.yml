@@ -17,6 +17,7 @@ jobs:
           appium driver install xcuitest
           npm install -g appium-doctor
           appium-doctor
+          export APPIUM_HOME=/usr/local/lib/node_modules/appium
         displayName: 'appium'
       - task: JavaToolInstaller@0
         inputs:
