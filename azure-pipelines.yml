@@ -50,6 +50,8 @@ jobs:
           echo '---'
           $ANDROID_HOME/platform-tools/adb devices -l | grep emulator-5554
           $ANDROID_HOME/platform-tools/adb shell getprop
+          $ANDROID_HOME/platform-tools/adb uninstall io.appium.unlock
+          $ANDROID_HOME/platform-tools/adb uninstall io.appium.settings
         displayName: 'Start Android emulator'
       - task: katalonTask@1
         inputs:
