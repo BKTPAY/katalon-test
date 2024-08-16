@@ -20,6 +20,7 @@ jobs:
           brew install libimobiledevice
           brew install carthage
           brew install ios-deploy
+          appium driver install uiautomator2
           brew install ios-webkit-debug-proxy
           brew tap kozyrap/libimobiledevice; (brew install --HEAD kozyrap/libimobiledevice/libimobiledevice || arch -arm64 brew install kozyrap/libimobiledevice/libimobiledevice) && brew unlink libimobiledevice && brew link libimobiledevice
         displayName: 'appium'
