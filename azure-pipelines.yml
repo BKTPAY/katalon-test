@@ -67,9 +67,9 @@ jobs:
         
 
       - script: |
-          curl -O https://download.katalon.com/9.1.0/Katalon_Studio_Engine_MacOS-9.1.0.tar.gz
-          tar -xzf Katalon_Studio_Engine_MacOS-9.1.0.tar.gz
-          cd Katalon_Studio_Engine_MacOS-9.1.0
+          curl -O https://download.katalon.com/9.6.0/Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
+          tar -xzf Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
+          cd Katalon_Studio_Engine_MacOS-9.6.0
           sudo mv "Katalon Studio Engine.app" /Applications/
           /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console  -retry=0 -projectPath="/Users/runner/work/1/s" -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f40e6675-f266-4c69-a67b-1637d512d361" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/usr/local/lib/node_modules/appium"
         displayName: 'Start Test emulator'
