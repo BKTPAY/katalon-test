@@ -80,7 +80,7 @@ jobs:
       - task: PublishPipelineArtifact@1
         displayName: 'Publish Pipeline Artifact'
         inputs:
-          targetPath: /home/vsts/work/1/s/
+          targetPath: $(Pipeline.Workspace)
           artifact: katalon
         continueOnError: true
         
