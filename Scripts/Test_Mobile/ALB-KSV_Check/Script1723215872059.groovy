@@ -21,7 +21,7 @@ def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
 Mobile.startApplication(path, true)
 
-WebUI.delay(200)
+WebUI.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria'), 0)
 

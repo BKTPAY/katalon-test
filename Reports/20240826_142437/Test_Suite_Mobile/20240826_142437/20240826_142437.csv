@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_Mobile,,,,26-08-2024 14:24:41,26-08-2024 14:25:20,"39,208s",PASSED
+,,,,,,,
+Test Cases/Test_Mobile/Login Success,,,,26-08-2024 14:24:41,26-08-2024 14:25:20,"39,084s",PASSED
+"path = getProjectDir() + ""/Data Files/epara.apk""",,,,26-08-2024 14:24:41,26-08-2024 14:24:41,"0,009s",PASSED
+"startApplication(path, true)",,,,26-08-2024 14:24:41,26-08-2024 14:24:54,"12,556s",PASSED
+delay(2),,,,26-08-2024 14:24:54,26-08-2024 14:24:56,"2,042s",PASSED
+"tap(findTestObject(""Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria""), 0)",,,,26-08-2024 14:24:56,26-08-2024 14:24:57,"1,029s",PASSED
+"tap(findTestObject(""Object Repository/ALB-KSV_Check/android.widget.TextView - Vazhdo""), 0)",,,,26-08-2024 14:24:57,26-08-2024 14:24:57,"0,188s",PASSED
+delay(1),,,,26-08-2024 14:24:57,26-08-2024 14:24:58,"1,010s",PASSED
+"tap(findTestObject(""Object Repository/Login Success/android.widget.TextView - Vijo""), 0)",,,,26-08-2024 14:24:58,26-08-2024 14:24:58,"0,437s",PASSED
+delay(1),,,,26-08-2024 14:24:58,26-08-2024 14:24:59,"1,009s",PASSED
+"tap(findTestObject(""Object Repository/Login Success/android.widget.TextView - Hyr""), 0)",,,,26-08-2024 14:24:59,26-08-2024 14:25:00,"0,357s",PASSED
+delay(1),,,,26-08-2024 14:25:00,26-08-2024 14:25:01,"1,008s",PASSED
+"tap(findTestObject(""Object Repository/Login Success/android.widget.TextView - e-mail""), 0)",,,,26-08-2024 14:25:01,26-08-2024 14:25:01,"0,233s",PASSED
+"tap(findTestObject(""Object Repository/Login Success/android.widget.EditText - e-mail""), 0)",,,,26-08-2024 14:25:01,26-08-2024 14:25:04,"2,535s",PASSED
+"setText(findTestObject(""Object Repository/Login Success/android.widget.EditText - e-mail (1)""), ""anilserin@hotmail.com"", 0)",,,,26-08-2024 14:25:04,26-08-2024 14:25:06,"2,039s",PASSED
+"tap(findTestObject(""Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)""), 0)",,,,26-08-2024 14:25:06,26-08-2024 14:25:07,"1,402s",PASSED
+"setText(findTestObject(""Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)""), ""616223"", 0)",,,,26-08-2024 14:25:07,26-08-2024 14:25:09,"1,898s",PASSED
+hideKeyboard(),,,,26-08-2024 14:25:09,26-08-2024 14:25:10,"1,126s",PASSED
+"tap(findTestObject(""Object Repository/Login Success/android.widget.TextView - Hyr (1)""), 0)",,,,26-08-2024 14:25:10,26-08-2024 14:25:11,"0,722s",PASSED
+"tap(findTestObject(""Object Repository/Login Success/android.view.ViewGroup (1)""), 0)",,,,26-08-2024 14:25:11,26-08-2024 14:25:13,"2,644s",PASSED
+"setText(findTestObject(""Object Repository/Login Success/android.view.ViewGroup (1)""), ""123456"", 0)",,,,26-08-2024 14:25:13,26-08-2024 14:25:16,"2,136s",PASSED
+delay(3),,,,26-08-2024 14:25:16,26-08-2024 14:25:19,"3,010s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Login Success/android.widget.TextView - TOTALI""), ""TOTALI"")",,,,26-08-2024 14:25:19,26-08-2024 14:25:20,"1,521s",PASSED

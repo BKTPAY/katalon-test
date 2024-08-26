@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Suite_Mobile" time="39.208" tests="1" failures="0" errors="0">
+   <testsuite name="Test_Suite_Mobile" tests="1" failures="0" errors="0" time="39.208" skipped="0" timestamp="26-08-2024T14:24:41" hostname="finartz - localhost" id="">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 15)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="/Users/finartz/git/katalon-test5/Reports/20240826_142437/Test_Suite_Mobile/20240826_142437"/>
+         <property name="logFiles" value="/Users/finartz/git/katalon-test5/Reports/20240826_142437/Test_Suite_Mobile/20240826_142437/execution0.log, /Users/finartz/git/katalon-test5/Reports/20240826_142437/Test_Suite_Mobile/20240826_142437/appium_error.log, /Users/finartz/git/katalon-test5/Reports/20240826_142437/Test_Suite_Mobile/20240826_142437/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="finartz - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.11.2&quot;}}}"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.11.2"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 15)"/>
+         <property name="deviceOSVersion" value="15"/>
+      </properties>
+      <testcase name="Test Cases/Test_Mobile/Login Success" time="39.084" classname="Test Cases/Test_Mobile/Login Success" status="PASSED">
+         <system-out><![CDATA[26-08-2024T14:24:41 - [TEST_CASE][PASSED] - Test Cases/Test_Mobile/Login Success: Test Cases/Test_Mobile/Login Success
+
+26-08-2024T14:24:41 - [TEST_STEP][PASSED] - path = getProjectDir() + "/Data Files/epara.apk": null
+
+26-08-2024T14:24:41 - [TEST_STEP][PASSED] - startApplication(path, true): Started application: '/Users/finartz/git/katalon-test5/Data Files/epara.apk'
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - Starting application: '/Users/finartz/git/katalon-test5/Data Files/epara.apk'
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - User set preference: ['androidInstallTimeout', '120.000']
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - User set preference: ['avdLaunchTimeout', '120.000']
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - User set preference: ['uninstallAfterCloseApp', 'false']
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '500.000']
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - PATH: /opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Arm64.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - APPIUM_HOME: /Users/finartz/.appium
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - appium outlog: /Users/finartz/git/katalon-test5/Reports/20240826_142437/Test_Suite_Mobile/20240826_142437/appium.log
+
+26-08-2024T14:24:41 - [MESSAGE][INFO] - appium errlog: /Users/finartz/git/katalon-test5/Reports/20240826_142437/Test_Suite_Mobile/20240826_142437/appium_error.log
+
+26-08-2024T14:24:43 - [MESSAGE][INFO] - Appium server started on port 57.174
+
+26-08-2024T14:24:54 - [MESSAGE][PASSED] - Started application: '/Users/finartz/git/katalon-test5/Data Files/epara.apk'
+
+26-08-2024T14:24:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-08-2024T14:24:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-08-2024T14:24:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria"), 0): Tapped on element 'Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria'
+
+26-08-2024T14:24:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:24:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria'
+
+26-08-2024T14:24:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/ALB-KSV_Check/android.widget.TextView - Vazhdo"), 0): Tapped on element 'Object Repository/ALB-KSV_Check/android.widget.TextView - Vazhdo'
+
+26-08-2024T14:24:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:24:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ALB-KSV_Check/android.widget.TextView - Vazhdo'
+
+26-08-2024T14:24:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+26-08-2024T14:24:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-08-2024T14:24:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Success/android.widget.TextView - Vijo"), 0): Tapped on element 'Object Repository/Login Success/android.widget.TextView - Vijo'
+
+26-08-2024T14:24:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:24:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Success/android.widget.TextView - Vijo'
+
+26-08-2024T14:24:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+26-08-2024T14:24:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-08-2024T14:24:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Success/android.widget.TextView - Hyr"), 0): Tapped on element 'Object Repository/Login Success/android.widget.TextView - Hyr'
+
+26-08-2024T14:25:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:25:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Success/android.widget.TextView - Hyr'
+
+26-08-2024T14:25:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+26-08-2024T14:25:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-08-2024T14:25:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Success/android.widget.TextView - e-mail"), 0): Tapped on element 'Object Repository/Login Success/android.widget.TextView - e-mail'
+
+26-08-2024T14:25:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:25:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Success/android.widget.TextView - e-mail'
+
+26-08-2024T14:25:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Success/android.widget.EditText - e-mail"), 0): Tapped on element 'Object Repository/Login Success/android.widget.EditText - e-mail'
+
+26-08-2024T14:25:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:25:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Success/android.widget.EditText - e-mail'
+
+26-08-2024T14:25:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Success/android.widget.EditText - e-mail (1)"), "anilserin@hotmail.com", 0): Text 'anilserin@hotmail.com' has been set to element 'Object Repository/Login Success/android.widget.EditText - e-mail (1)'
+
+26-08-2024T14:25:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:25:06 - [MESSAGE][PASSED] - Text 'anilserin@hotmail.com' has been set to element 'Object Repository/Login Success/android.widget.EditText - e-mail (1)'
+
+26-08-2024T14:25:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)"), 0): Tapped on element 'Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'
+
+26-08-2024T14:25:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:25:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'
+
+26-08-2024T14:25:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)"), "616223", 0): Text '616223' has been set to element 'Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'
+
+26-08-2024T14:25:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:25:09 - [MESSAGE][PASSED] - Text '616223' has been set to element 'Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'
+
+26-08-2024T14:25:09 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+26-08-2024T14:25:10 - [MESSAGE][PASSED] - Keyboard is hidden
+
+26-08-2024T14:25:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Success/android.widget.TextView - Hyr (1)"), 0): Tapped on element 'Object Repository/Login Success/android.widget.TextView - Hyr (1)'
+
+26-08-2024T14:25:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:25:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Success/android.widget.TextView - Hyr (1)'
+
+26-08-2024T14:25:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Success/android.view.ViewGroup (1)"), 0): Tapped on element 'Object Repository/Login Success/android.view.ViewGroup (1)'
+
+26-08-2024T14:25:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:25:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Success/android.view.ViewGroup (1)'
+
+26-08-2024T14:25:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Success/android.view.ViewGroup (1)"), "123456", 0): Text '123456' has been set to element 'Object Repository/Login Success/android.view.ViewGroup (1)'
+
+26-08-2024T14:25:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-08-2024T14:25:16 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login Success/android.view.ViewGroup (1)'
+
+26-08-2024T14:25:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-08-2024T14:25:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-08-2024T14:25:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login Success/android.widget.TextView - TOTALI"), "TOTALI"): Actual text and expected text of test object 'Object Repository/Login Success/android.widget.TextView - TOTALI' are matched.
+
+26-08-2024T14:25:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Success/android.widget.TextView - TOTALI' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-08-2024T14:24:41 - [TEST_SUITE][PASSED] - Test_Suite_Mobile: Test Cases/Test_Mobile/Login Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
