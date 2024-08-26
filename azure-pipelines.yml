@@ -13,7 +13,7 @@ jobs:
           versionSpec: '20.x'
         displayName: 'Install Node.js'
       - script: |
-          npm install -g appium@2 --unsafe-perm=true --allow-root
+          npm install -g appium@1.23 --unsafe-perm=true --allow-root
           appium driver install xcuites
           npm install -g appium-doctor
           appium-doctor
@@ -68,9 +68,9 @@ jobs:
         
 
       - script: |
-          curl -O https://download.katalon.com/9.6.0/Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
-          tar -xzf Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
-          cd Katalon_Studio_Engine_MacOS-9.6.0
+          curl -O https://download.katalon.com/9.0.0/Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
+          tar -xzf Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
+          cd Katalon_Studio_Engine_MacOS-9.0.0
           sudo mv "Katalon Studio Engine.app" /Applications/
           $ANDROID_HOME/platform-tools/adb devices
           /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console  -retry=0 -projectPath="/Users/runner/work/1/s" -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/Users/runner/hostedtoolcache/node/20.16.0/x64/lib/node_modules/appium"
