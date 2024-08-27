@@ -47,13 +47,11 @@ jobs:
           echo '---'
           $ANDROID_HOME/emulator/emulator -list-avds
         displayName: 'Create AVD'
-      
+        
       - script: |
           export KATALON_JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.422-5.1/x64/Contents/Home/
           export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.422-5.1/x64/Contents/Home/
-          export APPIUM_HOME=/Users/runner/hostedtoolcache/node/20.16.0/x64/lib/node_modules/appium
-          mkdir " "/Applications/Katalon Studio Engine.app/Contents/Eclipse/jre"
-          cp -R "/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.422-5.1/x64/" "/Applications/Katalon Studio Engine.app/Contents/Eclipse/jre/"
+          export APPIUM_HOME=/Users/runner/hostedtoolcache/node/20.16.0/x64/lib/node_modules/appium      
           $ANDROID_HOME/platform-tools/adb devices
           echo '---'
           nohup $ANDROID_HOME/emulator/emulator -avd test_android_emulator -no-snapshot -no-skin -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect  > /dev/null 2>&1 & $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
@@ -61,13 +59,13 @@ jobs:
           $ANDROID_HOME/platform-tools/adb devices -l | grep emulator-5554
           $ANDROID_HOME/platform-tools/adb shell getprop
         displayName: 'Start Android emulator'
-        
 
       - script: |
           curl -O https://download.katalon.com/9.0.0/Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
           tar -xzf Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
           cd Katalon_Studio_Engine_MacOS-9.0.0
           sudo mv "Katalon Studio Engine.app" /Applications/
+          cp -R "/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.422-5.1/x64/" "/Applications/Katalon Studio Engine.app/Contents/Eclipse/jre/"
           $ANDROID_HOME/platform-tools/adb devices
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server.test
