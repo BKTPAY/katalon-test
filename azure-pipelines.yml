@@ -69,8 +69,8 @@ jobs:
         
 
       - script: |
-          curl -O https://download.katalon.com/8.5.4/Katalon_Studio_Engine_MacOS-8.5.4.tar.gz
-          tar -xzf Katalon_Studio_Engine_MacOS-8.5.4.tar.gz
+          curl -O https://download.katalon.com/8.0.0/Katalon_Studio_Engine_MacOS-8.0.0.tar.gz
+          tar -xzf Katalon_Studio_Engine_MacOS-8.0.0.tar.gz
           cd Katalon_Studio_Engine_MacOS-8.5.4
           sudo mv "Katalon Studio Engine.app" /Applications/
           $ANDROID_HOME/platform-tools/adb devices
