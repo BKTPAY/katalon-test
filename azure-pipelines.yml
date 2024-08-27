@@ -13,7 +13,7 @@ jobs:
           versionSpec: '20.x'
         displayName: 'Install Node.js'
       - script: |
-          npm install -g appium@1.20.1 --unsafe-perm=true --allow-root
+          npm install -g appium@1.22 --unsafe-perm=true --allow-root
           appium install driver  xcuites
           npm install -g appium-doctor
           appium-doctor
@@ -48,13 +48,6 @@ jobs:
           $ANDROID_HOME/emulator/emulator -list-avds
         displayName: 'Create AVD'
       
-      - task: JavaToolInstaller@0
-        inputs:
-          versionSpec: '17'
-          jdkArchitectureOption: 'x64'
-          jdkSourceOption: 'PreInstalled'
-        displayName: 'Install java.js'
-  
       - script: |
           export KATALON_JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
           export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
