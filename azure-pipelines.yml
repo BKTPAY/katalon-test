@@ -57,21 +57,12 @@ jobs:
           $ANDROID_HOME/platform-tools/adb devices -l | grep emulator-5554
           $ANDROID_HOME/platform-tools/adb shell getprop
         displayName: 'Start Android emulator'
-
-      - task: JavaToolInstaller@0
-        inputs:
-          versionSpec: '17'
-          jdkArchitectureOption: 'x64'
-          jdkSourceOption: 'PreInstalled'
-        displayName: 'Install java 17.js'
         
       - script: |
           curl -O https://download.katalon.com/8.6.9/Katalon_Studio_Engine_MacOS-8.6.9.tar.gz
           tar -xzf Katalon_Studio_Engine_MacOS-8.6.9.tar.gz
           cd Katalon_Studio_Engine_MacOS-8.6.9
           sudo mv "Katalon Studio Engine.app" /Applications/
-          export KATALON_JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
-          export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
           $ANDROID_HOME/platform-tools/adb devices
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server.test
