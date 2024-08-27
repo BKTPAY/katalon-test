@@ -49,8 +49,6 @@ jobs:
         displayName: 'Create AVD'
       
       - script: |
-          export KATALON_JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
-          export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
           export APPIUM_HOME=/Users/runner/hostedtoolcache/node/20.16.0/x64/lib/node_modules/appium
           $ANDROID_HOME/platform-tools/adb devices
           echo '---'
