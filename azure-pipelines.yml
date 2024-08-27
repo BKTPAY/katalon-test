@@ -64,6 +64,7 @@ jobs:
           cd Katalon_Studio_Engine_MacOS-8.6.9
           sudo mv "Katalon Studio Engine.app" /Applications/
           $ANDROID_HOME/platform-tools/adb devices
+          $ANDROID_HOME/platform-tools/adb uninstall io.appium.settings
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server.test
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.unlock
