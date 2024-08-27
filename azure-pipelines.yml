@@ -72,7 +72,6 @@ jobs:
           sudo mv "Katalon Studio Engine.app" /Applications/
           export KATALON_JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
           export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
-          cp -R "/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/" "/Applications/Katalon Studio Engine.app/Contents/Eclipse/jre/"
           $ANDROID_HOME/platform-tools/adb devices
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server.test
