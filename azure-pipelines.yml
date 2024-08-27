@@ -66,9 +66,9 @@ jobs:
         displayName: 'Install java 17.js'
         
       - script: |
-          curl -O https://download.katalon.com/9.0.0/Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
-          tar -xzf Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
-          cd Katalon_Studio_Engine_MacOS-9.0.0
+          curl -O https://download.katalon.com/8.6.9/Katalon_Studio_Engine_MacOS-8.6.9.tar.gz
+          tar -xzf Katalon_Studio_Engine_MacOS-8.6.9.tar.gz
+          cd Katalon_Studio_Engine_MacOS-8.6.9
           sudo mv "Katalon Studio Engine.app" /Applications/
           export KATALON_JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
           export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.12-7/x64/Contents/Home/
