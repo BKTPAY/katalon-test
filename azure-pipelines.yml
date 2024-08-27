@@ -14,13 +14,13 @@ jobs:
         displayName: 'Install Node.js'
       - script: |
           npm install -g appium@1.20.1 --unsafe-perm=true --allow-root
-          appium driver install xcuites
+          appium install driver  xcuites
           npm install -g appium-doctor
           appium-doctor
           brew install libimobiledevice
           brew install carthage
           brew install ios-deploy
-          appium driver install uiautomator2
+          appium install driver  uiautomator2
           brew install ios-webkit-debug-proxy
           brew tap kozyrap/libimobiledevice; (brew install --HEAD kozyrap/libimobiledevice/libimobiledevice || arch -arm64 brew install kozyrap/libimobiledevice/libimobiledevice) && brew unlink libimobiledevice && brew link libimobiledevice
           which appium
