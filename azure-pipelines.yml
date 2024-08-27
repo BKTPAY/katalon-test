@@ -60,6 +60,13 @@ jobs:
           $ANDROID_HOME/platform-tools/adb shell getprop
         displayName: 'Start Android emulator'
 
+      - task: JavaToolInstaller@0
+        inputs:
+          versionSpec: '8'
+          jdkArchitectureOption: 'x64'
+          jdkSourceOption: 'PreInstalled'
+        displayName: 'Install java 17.js'
+        
       - script: |
           curl -O https://download.katalon.com/9.0.0/Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
           tar -xzf Katalon_Studio_Engine_MacOS-9.0.0.tar.gz
