@@ -62,7 +62,7 @@ jobs:
 
       - task: JavaToolInstaller@0
         inputs:
-          versionSpec: '8'
+          versionSpec: '17'
           jdkArchitectureOption: 'x64'
           jdkSourceOption: 'PreInstalled'
         displayName: 'Install java 17.js'
