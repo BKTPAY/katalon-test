@@ -23,6 +23,7 @@ jobs:
           appium driver install uiautomator2
           brew install ios-webkit-debug-proxy
           brew tap kozyrap/libimobiledevice; (brew install --HEAD kozyrap/libimobiledevice/libimobiledevice || arch -arm64 brew install kozyrap/libimobiledevice/libimobiledevice) && brew unlink libimobiledevice && brew link libimobiledevice
+          which appium
         displayName: 'appium'
       - task: JavaToolInstaller@0
         inputs:
