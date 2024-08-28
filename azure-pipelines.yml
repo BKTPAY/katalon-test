@@ -13,7 +13,7 @@ jobs:
           versionSpec: '20.x'
         displayName: 'Install Node.js'
       - script: |
-          npm install -g appium@next --unsafe-perm=true --allow-root
+          npm install -g appium@2.0.0 --unsafe-perm=true --allow-root
           npm install appium-xcuitest-driver@4.32.24
           appium install driver  xcuites
           npm install -g appium-doctor
@@ -75,7 +75,7 @@ jobs:
 
       - task: katalonTask@1
         inputs:
-         version: '9.6.0'
+         version: '9.1.0'
          executeArgs: '-noSplash -runMode=console -projectPath="/Users/runner/work/1/s" -retry=0 -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/Users/runner/hostedtoolcache/node/20.16.0/x64/lib/node_modules/appium"'
 
       - task: PublishPipelineArtifact@1
