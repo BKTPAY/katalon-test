@@ -73,8 +73,8 @@ jobs:
         displayName: 'Start Test emulator'
         continueOnError: true
 
-     - task: katalonTask@1
-       inputs:
+      - task: katalonTask@1
+        inputs:
          version: '9.0.0'
          executeArgs: '-noSplash -runMode=console -projectPath="/Users/runner/work/1/s" -retry=0 -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/Users/runner/hostedtoolcache/node/20.16.0/x64/lib/node_modules/appium"'
 
