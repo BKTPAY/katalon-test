@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
@@ -27,5 +28,4 @@ Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextVi
 
 Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Vazhdo'), 0)
 
-not_run: Mobile.closeApplication()
-
+Mobile.closeApplication()
