@@ -3,12 +3,12 @@
    <description></description>
    <name>Test_Suite_Mobile</name>
    <tag></tag>
-   <isRerun>false</isRerun>
+   <isRerun>true</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <numberOfRerun>9</numberOfRerun>
+   <pageLoadTimeout>60</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>d47e1ca9-e473-4a78-82eb-33b2c880e6d7</testSuiteGuid>
    <testCaseLink>
