@@ -14,6 +14,9 @@ jobs:
         displayName: 'Install Node.js'
       - script: |
           npm install -g appium@2.11.2 --unsafe-perm=true --allow-root
+          npm install appium-xcuitest-driver
+          npm install appium-uiautomator2-driver
+          export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
           appium install driver  xcuites
           appium install driver  uiautomator2
           which appium
@@ -51,6 +54,7 @@ jobs:
         displayName: 'Start Android emulator'
         
       - script: |
+          export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
           curl -O https://download.katalon.com/9.6.0/Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
           tar -xzf Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
           cd Katalon_Studio_Engine_MacOS-9.6.0
@@ -60,7 +64,6 @@ jobs:
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.uiautomator2.server.test
           $ANDROID_HOME/platform-tools/adb uninstall io.appium.unlock
-          export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
           /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console  -retry=0 -projectPath="/Users/runner/work/1/s" -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/Users/runner/work/1/s/node_modules/appium"
         displayName: 'Start Test emulator'
         continueOnError: true
