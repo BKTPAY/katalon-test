@@ -18,7 +18,8 @@ jobs:
           npm install appium-uiautomator2-driver
           export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
           appium  driver install xcuites
-          appium  driver install uiautomator2
+          appium  driver install uiautomator2@2.4.5
+          brew install carthage
           which appium
         displayName: 'appium'
       - task: JavaToolInstaller@0
