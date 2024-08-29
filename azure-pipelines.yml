@@ -30,6 +30,12 @@ jobs:
         displayName: 'Install java.js'
   
       - script: |
+          brew install --cask android-commandlinetools
+          export ANDROID_HOME=$HOME/Library/Android/sdk
+          export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
+          export PATH=$ANDROID_HOME/emulator:$PATH
+          export PATH=$ANDROID_HOME/platform-tools:$PATH
+          source ~/.bash_profile
           $ANDROID_HOME/tools/bin/sdkmanager --list
         displayName: 'List already installed Android packages'
 
