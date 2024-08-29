@@ -17,8 +17,8 @@ jobs:
           npm install appium-xcuitest-driver
           npm install appium-uiautomator2-driver
           export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
-          appium install driver  xcuites
-          appium install driver  uiautomator2
+          appium  driver install xcuites
+          appium  driver install uiautomator2
           which appium
         displayName: 'appium'
       - task: JavaToolInstaller@0
