@@ -41,7 +41,7 @@ jobs:
       - script: |
           $ANDROID_HOME/emulator/emulator -list-avds
           echo '---'
-          echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n test_android_emulator -k 'system-images;android-33;google_apis;x86_64' --force
+          echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n test_android_emulator -k 'system-images;android-33;default;x86_64' --force
           echo '---'
           emulator_config=~/.android/avd/test_android_emulator.avd/config.ini
           # The following madness is to support empty OR populated config.ini files,
