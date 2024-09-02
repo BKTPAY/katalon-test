@@ -53,7 +53,7 @@ jobs:
       - script: |
           $ANDROID_HOME/platform-tools/adb devices
           echo '---'
-          nohup $ANDROID_HOME/emulator/emulator -avd test_android_emulator   -no-snapshot -no-window -no-audio -no-boot-anim -camera-back none -camera-front none -qemu -m 2048    > /dev/null 2>&1 & $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
+          nohup $ANDROID_HOME/emulator/emulator -avd test_android_emulator    -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none    > /dev/null 2>&1 & $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
           echo '---'
           $ANDROID_HOME/platform-tools/adb devices -l | grep emulator-5554
           $ANDROID_HOME/platform-tools/adb shell getprop
