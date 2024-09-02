@@ -19,14 +19,10 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import java.util.HashMap
 
-Map<String, Object> capabilities = new HashMap<>()
-capabilities.put("appPackage", "com.example.package")
-capabilities.put("appActivity", "com.example.MainActivity")
-capabilities.put("platformName", "Android")
-capabilities.put("deviceName", "YourDeviceName")
+
 
 // Set these capabilities using RunConfiguration
-RunConfiguration.setDriverPreferencesProperty("appium", capabilities)
+RunConfiguration.setDriverPreferencesProperty("Android", "appPackage", "com.example.package")
 
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
