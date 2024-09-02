@@ -26,6 +26,8 @@ RunConfiguration.setDriverPreferencesProperty("Android", "appium:skipDeviceIniti
 RunConfiguration.setDriverPreferencesProperty("Android", "appium:skipServerInstallation", true)
 RunConfiguration.setDriverPreferencesProperty("Android", "appium:androidInstallTimeout", "200000")
 
+WebUI.delay(15)
+
 
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
