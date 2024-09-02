@@ -23,8 +23,9 @@ import io.appium.java_client.remote.MobileCapabilityType
 import org.openqa.selenium.remote.DesiredCapabilities
 
 DesiredCapabilities capabilities = new DesiredCapabilities()
-capabilities.setCapability(MobileCapabilityType.APP_PACKAGE, "com.example.package")
-capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, "com.example.MainActivity")
+capabilities.setCapability("appPackage", "com.example.package") // Corrected property name
+capabilities.setCapability("appActivity", "com.example.MainActivity") // Corrected property name
+
 
 RunConfiguration.setMobileDriverPreferencesProperties(capabilities)
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
