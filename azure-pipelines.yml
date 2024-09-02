@@ -14,7 +14,7 @@ jobs:
         displayName: 'Install Node.js'
       - script: |
           npm install  appium@2.11.2 --unsafe-perm=true --allow-root
-          export PATH=/Users/runner/work/1/s/node_modules/appium:$PATH
+          sudo ln -s /Users/runner/work/1/s/node_modules/appium/index.js /usr/local/bin/appium
           appium  driver install xcuitest
           appium  driver install uiautomator2@2.4.5
           brew install libimobiledevice
