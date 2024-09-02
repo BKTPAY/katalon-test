@@ -29,7 +29,7 @@ capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, "com.example.MainA
 RunConfiguration.setMobileDriverPreferencesProperties(capabilities)
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
-Mobile.startApplication(path, false)
+Mobile.startApplication(path, true)
 
 WebUI.delay(2)
 
