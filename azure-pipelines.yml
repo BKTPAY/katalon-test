@@ -13,8 +13,7 @@ jobs:
           versionSpec: '20.x'
         displayName: 'Install Node.js'
       - script: |
-          npm install appium@2.11.2 --unsafe-perm=true --allow-root
-          export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
+          npm install -g appium@2.11.2 --unsafe-perm=true --allow-root
           appium  driver install xcuitest
           appium  driver install uiautomator2@2.4.5
           brew install carthage
@@ -59,7 +58,6 @@ jobs:
         displayName: 'Start Android emulator'
         
       - script: |
-          export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
           curl -O https://download.katalon.com/9.6.0/Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
           tar -xzf Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
           cd Katalon_Studio_Engine_MacOS-9.6.0
