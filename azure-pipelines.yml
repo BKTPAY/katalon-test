@@ -13,7 +13,7 @@ jobs:
           versionSpec: '20.x'
         displayName: 'Install Node.js'
       - script: |
-          npm install -g appium@2.11.2 --unsafe-perm=true --allow-root
+          brew install appium
           appium  driver install xcuitest
           appium  driver install uiautomator2@2.4.5
           brew install libimobiledevice
