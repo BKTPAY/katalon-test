@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.configuration.RunConfiguration
-import io.appium.java_client.remote.MobileCapabilityType
-import org.openqa.selenium.remote.DesiredCapabilities
+import java.util.HashMap
 
-DesiredCapabilities capabilities = new DesiredCapabilities()
-capabilities.setCapability("appPackage", "com.example.package") // Corrected property name
-capabilities.setCapability("appActivity", "com.example.MainActivity") // Corrected property name
+Map<String, Object> capabilities = new HashMap<>()
+capabilities.put("appPackage", "com.example.package")
+capabilities.put("appActivity", "com.example.MainActivity")
+capabilities.put("platformName", "Android")
+capabilities.put("deviceName", "YourDeviceName")
 
+// Set these capabilities using RunConfiguration
+RunConfiguration.setDriverPreferencesProperty("appium", capabilities)
 
-RunConfiguration.setMobileDriverPreferencesProperties(capabilities)
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
 Mobile.startApplication(path, true)
