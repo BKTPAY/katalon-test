@@ -61,7 +61,7 @@ jobs:
           cd Katalon_Studio_Engine_MacOS-9.6.0
           sudo mv "Katalon Studio Engine.app" /Applications/
           $ANDROID_HOME/platform-tools/adb devices
-          $ANDROID_HOME/platform-tools/adb adb shell service list
+          $ANDROID_HOME/platform-tools/adb shell service list
 
           export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
           appium  driver install xcuitest
