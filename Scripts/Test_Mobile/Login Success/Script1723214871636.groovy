@@ -25,6 +25,9 @@ import java.util.HashMap
 RunConfiguration.setDriverPreferencesProperty("Android", "appium:skipDeviceInitialization", true)
 RunConfiguration.setDriverPreferencesProperty("Android", "appium:skipServerInstallation", true)
 RunConfiguration.setDriverPreferencesProperty("Android", "appium:androidInstallTimeout", "200000")
+RunConfiguration.setDriverPreferencesProperty("Android", "appium:uiautomator2ServerInstallTimeout", "200000")
+RunConfiguration.setDriverPreferencesProperty("Android", "uiautomator2ServerInstallTimeout", "200000")
+
 
 WebUI.delay(15)
 
