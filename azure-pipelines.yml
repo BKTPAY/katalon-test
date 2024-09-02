@@ -35,7 +35,7 @@ jobs:
         displayName: 'List already installed Android packages'
 
       - script: |
-          echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-33;google_apis;x86_64'
+          echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-33;default;x86_64'
         displayName: 'Install Android image'
 
       - script: |
