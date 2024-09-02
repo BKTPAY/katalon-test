@@ -16,6 +16,7 @@ jobs:
           npm install -g appium@2.11.2 --unsafe-perm=true --allow-root
           appium  driver install xcuitest
           appium  driver install uiautomator2@2.4.5
+          brew install libimobiledevice
           brew install carthage
           which appium
         displayName: 'appium'
