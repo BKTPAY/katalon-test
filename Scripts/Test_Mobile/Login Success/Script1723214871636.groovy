@@ -22,7 +22,10 @@ import java.util.HashMap
 
 
 // Set these capabilities using RunConfiguration
+RunConfiguration.setDriverPreferencesProperty("Android", "appium:skipDeviceInitialization", true)
+RunConfiguration.setDriverPreferencesProperty("Android", "appium:skipServerInstallation", true)
 RunConfiguration.setDriverPreferencesProperty("Android", "appium:androidInstallTimeout", "200000")
+
 
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
