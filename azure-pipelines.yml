@@ -7,7 +7,7 @@ jobs:
       vmImage: macOS-latest
       
     steps:
-
+    
       - task: NodeTool@0
         inputs:
           versionSpec: '20.x'
@@ -30,7 +30,7 @@ jobs:
       - script: |
           brew install --cask android-commandlinetools
           export ANDROID_HOME=$HOME/Library/Android/sdk
-          export APPIUM_HOME=/usr/local/bin/appium
+          export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
           export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
           export PATH=$ANDROID_HOME/emulator:$PATH
           export PATH=$ANDROID_HOME/platform-tools:$PATH
