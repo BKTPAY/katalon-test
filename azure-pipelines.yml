@@ -14,7 +14,7 @@ jobs:
         displayName: 'Install Node.js'
       - script: |
           brew install appium
-          ls -lsa /usr/local/Cellar/
+          ls -lsa /usr/local/Cellar/appium
           appium  driver install xcuitest
           appium  driver install uiautomator2@2.4.5
           brew install libimobiledevice
