@@ -17,7 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.configuration.RunConfiguration
+import io.appium.java_client.remote.MobileCapabilityType
+import org.openqa.selenium.remote.DesiredCapabilities
 
+DesiredCapabilities capabilities = new DesiredCapabilities()
+capabilities.setCapability(MobileCapabilityType.APP_PACKAGE, "com.example.package")
+capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, "com.example.MainActivity")
+
+RunConfiguration.setMobileDriverPreferencesProperties(capabilities)
 def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
 
 Mobile.startApplication(path, false)
