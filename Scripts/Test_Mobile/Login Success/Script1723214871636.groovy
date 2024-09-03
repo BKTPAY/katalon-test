@@ -38,7 +38,7 @@ Mobile.startApplication(path, true)
 
 WebUI.delay(15)
 
-Mobile.doubleTap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria'), 0)
+Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria'), 0)
 
 WebUI.delay(15)
 
