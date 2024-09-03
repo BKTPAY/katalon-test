@@ -66,16 +66,16 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditTe
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), '616223', 0)
 
 Mobile.hideKeyboard()
-WebUI.delay(3)
+Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 0)
-WebUI.delay(3)
+Mobile.delay(3)
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), '123456', 0)
 
-WebUI.delay(3)
+Mobile.delay(3)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Login Success/android.widget.TextView - TOTALI'), 'TOTALI')
 
