@@ -32,7 +32,7 @@ RunConfiguration.setDriverPreferencesProperty("Android", "uiautomator2ServerInst
 WebUI.delay(35)
 
 
-def path = RunConfiguration.getProjectDir() + '/Data Files/epara.apk'
+def path = RunConfiguration.getProjectDir() + '/Data Files/epara3.apk'
 
 Mobile.startApplication(path, true)
 
