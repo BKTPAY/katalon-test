@@ -1,6 +1,5 @@
 trigger:
   - master
-
 jobs:
   - job: macOS
     pool:
@@ -33,35 +32,14 @@ jobs:
           source ~/.bash_profile
           $ANDROID_HOME/tools/bin/sdkmanager --list
         displayName: 'List already installed Android packages'
-
       - script: |
-          echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-33;default;x86_64'
+          echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-29;default;x86_64'
         displayName: 'Install Android image'
-
       - script: |
           $ANDROID_HOME/emulator/emulator -list-avds
           echo '---'
-          echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n test_android_emulator -k 'system-images;android-33;default;x86_64' --force
+          echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n test_android_emulator -k 'system-images;android-29;default;x86_64' --force
           echo '---'
-          emulator_config=~/.android/avd/test_android_emulator.avd/config.ini
-          # The following madness is to support empty OR populated config.ini files,
-          # the state of which is dependant on the version of the emulator used (which we don't control),
-          # so let's be defensive to be safe.
-          # Replace existing config (NOTE we're on MacOS so sed works differently!)
-          sed -i .bak 's/hw.lcd.density=.*/hw.lcd.density=420/' "$emulator_config"
-          sed -i .bak 's/hw.lcd.height=.*/hw.lcd.height=1920/' "$emulator_config"
-          sed -i .bak 's/hw.lcd.width=.*/hw.lcd.width=1080/' "$emulator_config"
-          # Or, add new config
-          if ! grep -q "hw.lcd.density" "$emulator_config"; then
-            echo "hw.lcd.density=420" >> "$emulator_config"
-          fi
-          if ! grep -q "hw.lcd.height" "$emulator_config"; then
-            echo "hw.lcd.height=1920" >> "$emulator_config"
-          fi
-          if ! grep -q "hw.lcd.width" "$emulator_config"; then
-            echo "hw.lcd.width=1080" >> "$emulator_config"
-          fi
-          echo "Emulator settings ($emulator_config)"
           cat "$emulator_config"
           $ANDROID_HOME/emulator/emulator -list-avds
         displayName: 'Create AVD'
@@ -69,7 +47,7 @@ jobs:
       - script: |
           $ANDROID_HOME/platform-tools/adb devices
           echo '---'
-          nohup $ANDROID_HOME/emulator/emulator -avd test_android_emulator    -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none -qemu -m 2048    > /dev/null 2>&1 & $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
+          nohup $ANDROID_HOME/emulator/emulator -avd test_android_emulator  -wipe-data -no-snapshot -no-window -no-audio -no-boot-anim -camera-back none -camera-front none -gpu off -qemu -m 4096  > /dev/null 2>&1 & $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
           echo '---'
           $ANDROID_HOME/platform-tools/adb devices -l | grep emulator-5554
           $ANDROID_HOME/platform-tools/adb shell getprop
@@ -82,18 +60,16 @@ jobs:
           sudo mv "Katalon Studio Engine.app" /Applications/
           $ANDROID_HOME/platform-tools/adb devices
           $ANDROID_HOME/platform-tools/adb shell service list
-
           export APPIUM_HOME=/Users/runner/work/1/s/node_modules/appium
           appium  driver install xcuitest
           appium  driver install uiautomator2
-          /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console  -retry=2 -projectPath="/Users/runner/work/1/s" -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/Users/runner/work/1/s/node_modules/appium"
+          /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console  -retry=1 -projectPath="/Users/runner/work/1/s" -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/Users/runner/work/1/s/node_modules/appium"
+          /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console  -retry=0 -projectPath="/Users/runner/work/1/s" -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/Users/runner/work/1/s/node_modules/appium"
         displayName: 'Start Test emulator'
         continueOnError: true
-
       - task: PublishPipelineArtifact@1
         displayName: 'Publish Pipeline Artifact'
         inputs:
           targetPath: $(Pipeline.Workspace)
           artifact: katalon
         continueOnError: true
-        
