@@ -75,7 +75,7 @@ Mobile.delay(3)
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), '123456', 0)
 
-Mobile.delay(3)
+Mobile.delay(23)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Login Success/android.widget.TextView - TOTALI'), 'TOTALI')
 
