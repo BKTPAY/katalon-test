@@ -36,20 +36,19 @@ def path = RunConfiguration.getProjectDir() + '/Data Files/epara3.apk'
 
 Mobile.startApplication(path, true)
 
-WebUI.delay(3)
+WebUI.delay(15)
 
 Mobile.doubleTap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria'), 0)
 
-WebUI.delay(3)
+WebUI.delay(15)
 
 Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Vazhdo'), 0)
-Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Vazhdo'), 0)
 
-WebUI.delay(3)
+WebUI.delay(15)
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Vijo'), 0)
 
-WebUI.delay(1)
+WebUI.delay(15)
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr'), 0)
 
