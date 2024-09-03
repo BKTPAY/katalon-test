@@ -52,11 +52,11 @@ Mobile.delay(33)
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr'), 0)
 
-WebUI.delay(1)
+Mobile.delay(23)
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail'), 0)
+Mobile.delay(23)
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail (1)'), 'anilserin@hotmail.com', 
     0)
