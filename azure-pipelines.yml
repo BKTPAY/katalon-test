@@ -8,7 +8,7 @@ jobs:
     steps:
     
       - script: |
-          npm install  appium@beta
+          npm install  appium@2.11.2
           sudo ln -s /Users/runner/work/1/s/node_modules/appium/index.js /usr/local/bin/appium
           appium  driver install xcuitest
           appium  driver install uiautomator2
