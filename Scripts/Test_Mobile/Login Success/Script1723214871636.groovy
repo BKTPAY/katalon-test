@@ -99,11 +99,11 @@ Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.Ed
 Mobile.hideKeyboard()
 
 
-Mobile.delay(22)
+Mobile.delay(33)
 Mobile.takeScreenshot();
 
-Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 0)
-Mobile.delay(22)
+Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 10)
+Mobile.delay(33)
 Mobile.takeScreenshot();
 
 
