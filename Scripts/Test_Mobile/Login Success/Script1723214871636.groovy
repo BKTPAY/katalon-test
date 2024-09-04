@@ -103,7 +103,7 @@ Mobile.delay(33)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 10)
-Mobile.delay(33)
+Mobile.delay(44)
 Mobile.takeScreenshot();
 
 
