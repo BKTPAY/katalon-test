@@ -39,30 +39,49 @@ Mobile.startApplication(path, true)
 Mobile.delay(22)
 
 Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria'), 0)
-
+Mobile.takeScreenshot();
 Mobile.delay(22)
+Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Vazhdo'), 0)
+Mobile.takeScreenshot();
 
 Mobile.delay(22)
+Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Vijo'), 0)
+Mobile.takeScreenshot();
 
 Mobile.delay(22)
+Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr'), 0)
+Mobile.takeScreenshot();
 
 Mobile.delay(33)
+Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
+Mobile.takeScreenshot();
+
 Mobile.delay(5)
+Mobile.takeScreenshot();
+
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
+Mobile.takeScreenshot();
 
 Mobile.delay(33)
+Mobile.takeScreenshot();
+
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail'), 0)
+Mobile.takeScreenshot();
+
 Mobile.delay(5)
+Mobile.takeScreenshot();
+
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail'), 0)
+Mobile.takeScreenshot();
 
 
 Mobile.delay(23)
