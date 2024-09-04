@@ -87,7 +87,7 @@ Mobile.takeScreenshot();
 Mobile.delay(44)
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail (1)'), 'anilserin@hotmail.com', 
-    0)
+    10)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
@@ -97,7 +97,7 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditTe
 Mobile.delay(11)
 Mobile.takeScreenshot();
 
-Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), '616223', 0)
+Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), '616223', 10)
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
@@ -115,7 +115,7 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGrou
 Mobile.delay(44)
 Mobile.takeScreenshot();
 
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), '123456', 0)
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), '123456', 10)
 
 Mobile.delay(44)
 
