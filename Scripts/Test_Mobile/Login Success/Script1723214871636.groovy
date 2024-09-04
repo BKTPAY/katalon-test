@@ -55,6 +55,10 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextVi
 Mobile.delay(23)
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
+Mobile.delay(23)
+
+Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail'), 0)
+
 
 Mobile.delay(23)
 
