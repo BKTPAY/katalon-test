@@ -114,8 +114,6 @@ Mobile.takeScreenshot();
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 0)
 Mobile.delay(22)
 Mobile.hideKeyboard()
-Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
-Mobile.delay(22)
 
 Mobile.takeScreenshot();
 Mobile.delay(22)
