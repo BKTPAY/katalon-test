@@ -96,6 +96,8 @@ Mobile.delay(22)
 Mobile.takeScreenshot();
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), '616223', 10)
+Mobile.delay(11)
+
 Mobile.hideKeyboard()
 
 
@@ -103,17 +105,24 @@ Mobile.delay(11)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
-Mobile.delay(100)
+Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
+
+Mobile.delay(22)
 Mobile.takeScreenshot();
 
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 0)
-Mobile.delay(44)
+Mobile.delay(22)
+Mobile.hideKeyboard()
+Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
+Mobile.delay(22)
+
 Mobile.takeScreenshot();
+Mobile.delay(22)
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), '123456', 10)
 
-Mobile.delay(44)
+Mobile.delay(22)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Login Success/android.widget.TextView - TOTALI'), 'TOTALI')
 
