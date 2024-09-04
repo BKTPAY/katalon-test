@@ -112,12 +112,12 @@ Mobile.takeScreenshot();
 
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 0)
-Mobile.delay(22)
+Mobile.delay(44)
 Mobile.takeScreenshot();
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), '123456', 0)
 
-Mobile.delay(22)
+Mobile.delay(44)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Login Success/android.widget.TextView - TOTALI'), 'TOTALI')
 
