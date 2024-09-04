@@ -88,6 +88,7 @@ Mobile.delay(44)
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail (1)'), 'anilserin@hotmail.com', 
     0)
+Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), 0)
 Mobile.delay(11)
