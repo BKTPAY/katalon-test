@@ -90,7 +90,7 @@ Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.Ed
     0)
 Mobile.takeScreenshot();
 
-Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail'), 0)
+Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), 0)
@@ -100,7 +100,7 @@ Mobile.takeScreenshot();
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), '616223', 0)
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail'), 0)
+Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
 Mobile.takeScreenshot();
 
 Mobile.delay(11)
