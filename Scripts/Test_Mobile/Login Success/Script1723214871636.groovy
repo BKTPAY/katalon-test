@@ -52,13 +52,13 @@ Mobile.takeScreenshot();
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Vijo'), 0)
 Mobile.takeScreenshot();
 
-Mobile.delay(22)
+Mobile.delay(44)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr'), 0)
 Mobile.takeScreenshot();
 
-Mobile.delay(33)
+Mobile.delay(44)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
@@ -70,7 +70,7 @@ Mobile.takeScreenshot();
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
 Mobile.takeScreenshot();
 
-Mobile.delay(33)
+Mobile.delay(44)
 Mobile.takeScreenshot();
 
 
@@ -84,7 +84,7 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditTe
 Mobile.takeScreenshot();
 
 
-Mobile.delay(23)
+Mobile.delay(44)
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail (1)'), 'anilserin@hotmail.com', 
     0)
