@@ -118,7 +118,7 @@ Mobile.delay(22)
 Mobile.hideKeyboard()
 
 Mobile.takeScreenshot();
-Mobile.delay(22)
+Mobile.delay(66)
 
 Mobile.sendKeys(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'123456')
 
