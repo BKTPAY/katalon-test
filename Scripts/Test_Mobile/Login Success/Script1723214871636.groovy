@@ -104,12 +104,12 @@ Mobile.delay(11)
 Mobile.takeScreenshot();
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), '616223', 10)
-Mobile.delay(7)
+Mobile.delay()
 
 Mobile.hideKeyboard()
 
 
-Mobile.delay(7)
+Mobile.delay(15)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
