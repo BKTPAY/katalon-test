@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.TextView - Hyr</name>
+   <name>android.widget.TextView - Shqipria</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -13,23 +13,23 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>833e812b-5f13-47f5-9a87-768cb07ed1af</webElementGuid>
+      <webElementGuid>e72285c1-a929-4e39-b39c-f66ebad6d0eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>f4404505-fea8-48a4-97b6-8e0646443a8c</webElementGuid>
+      <value>1</value>
+      <webElementGuid>78bba3d4-2a61-47c4-8655-0a9842715be5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Hyr</value>
-      <webElementGuid>2140b45f-e9c1-415e-8eb8-c54581932977</webElementGuid>
+      <value>Shqipëria</value>
+      <webElementGuid>a0503fc0-058a-46d1-bd37-dc09b9fab256</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>package</name>
       <type>Main</type>
       <value>al.com.bktpay.epara.uat</value>
-      <webElementGuid>e73ca028-1dad-4e6f-a674-6f74f28b2dfe</webElementGuid>
+      <webElementGuid>37e2e86d-c35b-44ab-b78e-239ee587c3cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>468bd388-938c-4590-b809-f9f9b4867db6</webElementGuid>
+      <webElementGuid>172872e5-18a1-4d7d-8708-4c625387051b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7ba7e5b3-96b7-496c-8798-688c6b96a3cc</webElementGuid>
+      <webElementGuid>19be07be-5799-410c-a3a8-b408f1231a98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>50a52061-d429-4783-bb31-d59306e76f4e</webElementGuid>
+      <webElementGuid>4b6cf0b3-1ef5-494b-8428-f81585de757d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>fd2b0852-4468-429f-8928-2a04d2120be2</webElementGuid>
+      <webElementGuid>767523b0-ba30-45cd-a5a4-101d669ce72a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>859c7dbf-c5f8-4c57-bcf3-6eed95812917</webElementGuid>
+      <webElementGuid>e6ccc940-87fa-4b52-a03e-da81920a4253</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ac19ce08-4099-4b17-ba0d-175aa7d1ea56</webElementGuid>
+      <webElementGuid>ff9356dc-ecd2-44e2-b5db-1b87991b3981</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ae4e3219-f72b-4840-8b0b-406947b18ece</webElementGuid>
+      <webElementGuid>04378442-63bb-448e-b32c-848a4b6741cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>454ab311-6873-4641-b084-6e76a300aa49</webElementGuid>
+      <webElementGuid>2cb8f8b8-6878-4249-9123-0a990beaa8ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a72963a1-1081-4254-84d9-4415aa0e8801</webElementGuid>
+      <webElementGuid>1e22b583-7e0a-4ad2-acfd-3ff5638c9742</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,31 +117,31 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7023cbd5-d663-4615-bc49-ed4d2ae23be3</webElementGuid>
+      <webElementGuid>7f83b12e-7240-46e0-89d9-0b48135e36c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>639</value>
-      <webElementGuid>e86a92bd-3423-4fee-bccd-85ef84f02c29</webElementGuid>
+      <value>373</value>
+      <webElementGuid>228a5490-9f97-492e-bb0a-68c5ec98147e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>2223</value>
-      <webElementGuid>b9a3171f-31d5-477e-ba98-d4f1e07d0abb</webElementGuid>
+      <value>677</value>
+      <webElementGuid>bd5e1c8e-48e4-481b-9db8-e39d602d35a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>66</value>
-      <webElementGuid>42114220-579b-4acf-84b4-e86625c91faa</webElementGuid>
+      <value>185</value>
+      <webElementGuid>1a6c489a-637b-4f6f-aba7-400b1ddbd6c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,15 +149,15 @@
       <name>height</name>
       <type>Main</type>
       <value>58</value>
-      <webElementGuid>0507f286-9a67-4b42-b52f-773d4614ed15</webElementGuid>
+      <webElementGuid>4a010906-f28a-4503-bfb9-e0471bee9b2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[639,2223][705,2281]</value>
-      <webElementGuid>a8263c08-9fca-4634-93d8-ce83041b55ee</webElementGuid>
+      <value>[373,677][558,735]</value>
+      <webElementGuid>493cfe8f-2b9f-42a4-a477-b995020c1dd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,33 +165,28 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3f5041f8-211c-4710-a40a-735e6887ad97</webElementGuid>
+      <webElementGuid>df25a60e-a54a-4bd7-a5a4-386e8a155ac8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]</value>
-      <webElementGuid>da456f19-c5ae-4ac2-9988-d581967ab49e</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]</value>
+      <webElementGuid>b0642c3e-3419-49ed-b67f-67e2593f2be3</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Hyr' or . = 'Hyr')]</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Shqipëria' or . = 'Shqipëria')]</locator>
    <locatorCollection>
       <entry>
          <key>ANDROID_VIEWTAG</key>
          <value></value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
-         <value></value>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Shqipëria' or . = 'Shqipëria')]</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>android.widget.TextView</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
@@ -202,16 +197,12 @@
          <value></value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.TextView' and (@text = 'Hyr' or . = 'Hyr')]</value>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Shqipëria' or . = 'Shqipëria')]</value>
       </entry>
       <entry>
          <key>NAME</key>
@@ -219,11 +210,23 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]</value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Hyr&quot;).packageName(&quot;al.com.bktpay.epara.uat&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)</value>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Shqipëria&quot;).packageName(&quot;al.com.bktpay.epara.uat&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
