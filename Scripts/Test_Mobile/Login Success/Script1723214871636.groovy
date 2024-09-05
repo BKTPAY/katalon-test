@@ -123,17 +123,20 @@ Mobile.delay(22)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 0)
 
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3))
+Mobile.takeScreenshot();
+
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_4))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_5))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_6))
 
 
-Mobile.delay(11)
+Mobile.delay(22)
 Mobile.takeScreenshot();
 
 Mobile.verifyElementText(findTestObject('Object Repository/Login Success/android.widget.TextView - TOTALI'), 'TOTALI')
