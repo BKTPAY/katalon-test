@@ -108,13 +108,6 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextVi
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
 
 Mobile.delay(22)
-Mobile.takeScreenshot();
-
-
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 30)
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 30)
-
-Mobile.delay(22)
 Mobile.hideKeyboard()
 
 Mobile.takeScreenshot();
