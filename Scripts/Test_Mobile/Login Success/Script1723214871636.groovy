@@ -120,8 +120,31 @@ Mobile.hideKeyboard()
 Mobile.takeScreenshot();
 Mobile.delay(66)
 
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'123456',22)
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'123456',22)
+
+
+Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), '1', 0)
+
+Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), '6', 0)
+
+Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (2)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (2)'), '5', 0)
+
+Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (3)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (3)'), '2', 0)
+
+Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (4)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (4)'), '4', 0)
+
+Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (5)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (5)'), '3', 0)
 
 
 Mobile.delay(22)
