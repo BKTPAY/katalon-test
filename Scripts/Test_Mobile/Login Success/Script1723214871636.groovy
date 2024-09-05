@@ -116,10 +116,9 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextVi
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
 
 Mobile.delay(11)
-Mobile.hideKeyboard()
-
 Mobile.takeScreenshot();
-Mobile.delay(22)
+Mobile.delay(33)
+Mobile.takeScreenshot();
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
