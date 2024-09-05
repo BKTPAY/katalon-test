@@ -134,6 +134,7 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_6))
 
 
 Mobile.delay(11)
+Mobile.takeScreenshot();
 
 Mobile.verifyElementText(findTestObject('Object Repository/Login Success/android.widget.TextView - TOTALI'), 'TOTALI')
 
