@@ -128,24 +128,8 @@ Mobile.delay(7)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
 Mobile.delay(7)
 
-driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
-Mobile.delay(1)
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'123456', 15)
 
-driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
-Mobile.delay(1)
-
-driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3))
-Mobile.delay(1)
-
-Mobile.takeScreenshot();
-
-driver.pressKey(new KeyEvent(AndroidKey.DIGIT_4))
-Mobile.delay(1)
-
-driver.pressKey(new KeyEvent(AndroidKey.DIGIT_5))
-Mobile.delay(1)
-
-driver.pressKey(new KeyEvent(AndroidKey.DIGIT_6))
 
 
 Mobile.delay(22)
