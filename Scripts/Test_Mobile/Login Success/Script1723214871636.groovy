@@ -18,6 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import java.util.HashMap
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import io.appium.java_client.android.AndroidDriver as AndroidDriver
+import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
+import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
 
 
 
@@ -35,6 +41,8 @@ WebUI.delay(35)
 def path = RunConfiguration.getProjectDir() + '/Data Files/app-release.apk'
 
 Mobile.startApplication(path, true)
+
+
 
 Mobile.delay(11)
 
@@ -113,31 +121,16 @@ Mobile.hideKeyboard()
 Mobile.takeScreenshot();
 Mobile.delay(66)
 
-
+AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), '1', 0)
-
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), '6', 0)
-
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (2)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (2)'), '5', 0)
-
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (3)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (3)'), '2', 0)
-
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (4)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (4)'), '4', 0)
-
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (5)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (5)'), '3', 0)
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_4))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_5))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_6))
 
 
 Mobile.delay(22)
