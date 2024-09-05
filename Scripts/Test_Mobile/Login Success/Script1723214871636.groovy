@@ -35,7 +35,7 @@ RunConfiguration.setDriverPreferencesProperty("Android", "appium:uiautomator2Ser
 RunConfiguration.setDriverPreferencesProperty("Android", "uiautomator2ServerInstallTimeout", 200000)
 
 
-WebUI.delay(35)
+WebUI.delay(22)
 
 
 def path = RunConfiguration.getProjectDir() + '/Data Files/app-release.apk'
@@ -44,55 +44,55 @@ Mobile.startApplication(path, true)
 
 
 
-Mobile.delay(11)
+Mobile.delay(7)
 
 Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Shqipria'), 0)
 Mobile.takeScreenshot();
-Mobile.delay(11)
+Mobile.delay(7)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/ALB-KSV_Check/android.widget.TextView - Vazhdo'), 0)
 Mobile.takeScreenshot();
 
-Mobile.delay(11)
+Mobile.delay(7)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Vijo'), 0)
 Mobile.takeScreenshot();
 
-Mobile.delay(11)
+Mobile.delay(7)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr'), 0)
 Mobile.takeScreenshot();
 
-Mobile.delay(11)
+Mobile.delay(7)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
 Mobile.takeScreenshot();
 
-Mobile.delay(11)
+Mobile.delay(7)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - e-mail'), 0)
 Mobile.takeScreenshot();
 
-Mobile.delay(11)
+Mobile.delay(7)
 Mobile.takeScreenshot();
 
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail'), 0)
 Mobile.takeScreenshot();
 
-Mobile.delay(11)
+Mobile.delay(7)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail'), 0)
 Mobile.takeScreenshot();
 
 
-Mobile.delay(44)
+Mobile.delay(22)
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - e-mail (1)'), 'anilserin@hotmail.com', 
     10)
@@ -100,26 +100,26 @@ Mobile.takeScreenshot();
 
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), 0)
-Mobile.delay(22)
+Mobile.delay(11)
 Mobile.takeScreenshot();
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.widget.EditText - Fjalkalimi (1)'), '616223', 10)
-Mobile.delay(11)
+Mobile.delay(7)
 
 Mobile.hideKeyboard()
 
 
-Mobile.delay(11)
+Mobile.delay(7)
 Mobile.takeScreenshot();
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
 
+Mobile.delay(11)
+Mobile.hideKeyboard()
+
+Mobile.takeScreenshot();
 Mobile.delay(22)
-Mobile.hideKeyboard()
-
-Mobile.takeScreenshot();
-Mobile.delay(66)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
@@ -133,7 +133,7 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_5))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_6))
 
 
-Mobile.delay(22)
+Mobile.delay(11)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Login Success/android.widget.TextView - TOTALI'), 'TOTALI')
 
