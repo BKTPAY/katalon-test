@@ -123,7 +123,7 @@ AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
 Mobile.delay(33)
-
+Mobile.takeScreenshot();
 Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'123456', 15)
 
 
