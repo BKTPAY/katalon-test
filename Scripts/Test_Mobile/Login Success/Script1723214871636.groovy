@@ -101,9 +101,9 @@ Mobile.delay(22)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-Mobile.doubleTap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
+Mobile.doubleTap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
 Mobile.delay(22)
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'123456', 15)
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'123456', 15)
 
 Mobile.delay(11)
 Mobile.takeScreenshot();
