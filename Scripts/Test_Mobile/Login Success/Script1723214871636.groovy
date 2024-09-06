@@ -129,7 +129,10 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGrou
 Mobile.delay(7)
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'123456', 15)
+Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
+Mobile.delay(7)
 
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'123456', 15)
 
 
 Mobile.delay(22)
