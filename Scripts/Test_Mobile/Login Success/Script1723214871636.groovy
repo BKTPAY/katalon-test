@@ -117,18 +117,10 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextVi
 
 Mobile.delay(11)
 Mobile.takeScreenshot();
-Mobile.delay(33)
-Mobile.takeScreenshot();
+Mobile.delay(55)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
-Mobile.delay(7)
-
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
-Mobile.delay(7)
-
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'123456', 15)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
 Mobile.delay(7)
 
