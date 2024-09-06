@@ -117,17 +117,17 @@ Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextVi
 
 Mobile.delay(11)
 Mobile.takeScreenshot();
-Mobile.delay(33)
+Mobile.delay(22)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
-Mobile.delay(33)
+Mobile.delay(22)
 Mobile.takeScreenshot();
 Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'123456', 15)
 
 
-Mobile.delay(22)
+Mobile.delay(11)
 Mobile.takeScreenshot();
 
 Mobile.verifyElementText(findTestObject('Object Repository/Login Success/android.widget.TextView - TOTALI'), 'TOTALI')
