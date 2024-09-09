@@ -104,25 +104,26 @@ AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
 Mobile.takeScreenshot();
-
-Mobile.delay(22)
-Mobile.clearText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
-Mobile.delay(2)
-
-Mobile.hideKeyboard()
-
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'1', 15)
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_4))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_5))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_6))
 
 Mobile.delay(11)
 Mobile.takeScreenshot();
 Mobile.hideKeyboard()
-Mobile.clearText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
 Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
 Mobile.takeScreenshot();
-
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'2', 15)
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_4))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_5))
+driver.pressKey(new KeyEvent(AndroidKey.DIGIT_6))
 Mobile.takeScreenshot();
 
 Mobile.delay(22)
