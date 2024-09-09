@@ -103,6 +103,7 @@ AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
+Mobile.takeScreenshot();
 
 Mobile.delay(22)
 Mobile.clearText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
@@ -119,6 +120,7 @@ Mobile.clearText(findTestObject('Object Repository/Login Success/android.view.Vi
 Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
+Mobile.takeScreenshot();
 
 Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'2', 15)
 Mobile.takeScreenshot();
