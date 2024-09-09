@@ -104,10 +104,14 @@ AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
 Mobile.delay(22)
 Mobile.verifyElementVisible(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'123456', 15)
+Mobile.hideKeyboard()
+
 Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'123456', 15)
 
 Mobile.delay(11)
 Mobile.takeScreenshot();
+Mobile.hideKeyboard()
 
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'123456', 15)
 Mobile.verifyElementText(findTestObject('Object Repository/Login Success/android.widget.TextView - TOTALI'), 'TOTALI')
 
