@@ -108,14 +108,14 @@ Mobile.delay(2)
 
 Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'123456', 15)
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup'),'1', 15)
 
 Mobile.delay(11)
 Mobile.takeScreenshot();
 Mobile.hideKeyboard()
 Mobile.clearText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
 Mobile.delay(2)
-Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'123456', 15)
+Mobile.setText(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'),'2', 15)
 Mobile.takeScreenshot();
 
 Mobile.delay(22)
