@@ -97,13 +97,11 @@ Mobile.delay(15)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
 Mobile.tap(findTestObject('Object Repository/Login Success/android.widget.TextView - Hyr (1)'), 30)
 
-Mobile.delay(22)
+Mobile.delay(32)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 Mobile.takeScreenshot();
 
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup'), 15)
-Mobile.takeScreenshot();
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3))
@@ -115,7 +113,6 @@ Mobile.delay(11)
 Mobile.takeScreenshot();
 Mobile.hideKeyboard()
 Mobile.delay(2)
-Mobile.tap(findTestObject('Object Repository/Login Success/android.view.ViewGroup (1)'), 15)
 Mobile.takeScreenshot();
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
