@@ -87,7 +87,8 @@ jobs:
           appcenter login --token 0ebea8b2071497861dfb14635b22940f17455a6c 
           appcenter distribute groups download --app BKTPAY/Epara-Android-Uat -g "Test Group"
           $ANDROID_HOME/platform-tools/adb shell screenrecord --time-limit=120 /Users/runner/work/1/s/test.mp4 &
-          /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console  -retry=0 -projectPath="/Users/runner/work/1/s" -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/Users/runner/work/1/s/node_modules/appium"
+          #/Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console  -retry=0 -projectPath="/Users/runner/work/1/s" -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/Users/runner/work/1/s/node_modules/appium"
+          /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -browserType="Chrome" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" -executionProfile=”default” 
         displayName: 'Start Test emulator'
         continueOnError: true
       - task: PublishPipelineArtifact@1
