@@ -68,8 +68,8 @@ jobs:
           echo '---'
           # nohup $ANDROID_HOME/emulator/emulator -avd test_android_emulator  -wipe-data -no-snapshot -no-window -no-audio -no-boot-anim -camera-back none -camera-front none -gpu off -qemu -m 4096  > /dev/null 2>&1 & $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
           echo '---'
-          $ANDROID_HOME/platform-tools/adb devices -l | grep emulator-5554
-          $ANDROID_HOME/platform-tools/adb shell getprop
+         # $ANDROID_HOME/platform-tools/adb devices -l | grep emulator-5554
+         # $ANDROID_HOME/platform-tools/adb shell getprop
         displayName: 'Start Android emulator'
         
       - script: |
