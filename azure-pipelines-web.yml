@@ -13,6 +13,7 @@ jobs:
           tar -xzf Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
           cd Katalon_Studio_Engine_MacOS-9.6.0
           sudo mv "Katalon Studio Engine.app" /Applications/
-          cd /Applications/
-          ls
-          /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/Users/runner/work/1/s" -browserType="Chrome" --config -webui.autoUpdateDrivers=true -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506"
+          cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/
+          chmod +x katalonc
+          katalonc -noSplash -runMode=console -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/Users/runner/work/1/s" -browserType="Chrome" --config -webui.autoUpdateDrivers=true -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506"
+          ./katalonc -noSplash -runMode=console -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/Users/runner/work/1/s" -browserType="Chrome" --config -webui.autoUpdateDrivers=true -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506"
