@@ -7,56 +7,8 @@ jobs:
       vmImage: ubuntu-latest
       
     steps:
-
-      - task: NodeTool@0
-        inputs:
-          versionSpec: '20.x'
-        displayName: 'Install Node.js'
-      - script: |
-          npm install -g appium@1.16 --unsafe-perm=true --allow-root
-          npm install -g appium-doctor
-          appium-doctor
-        displayName: 'appium'
-      - task: JavaToolInstaller@0
-        inputs:
-          versionSpec: '8'
-          jdkArchitectureOption: 'x64'
-          jdkSourceOption: 'PreInstalled'
-        displayName: 'Install java.js'
-  
-      - script: |
-          brew install --cask android-commandlinetools
-          export ANDROID_HOME=$HOME/Library/Android/sdk
-          export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
-          export PATH=$ANDROID_HOME/emulator:$PATH
-          export PATH=$ANDROID_HOME/platform-tools:$PATH
-          source ~/.bash_profile
-          $ANDROID_HOME/tools/bin/sdkmanager --list
-        displayName: 'List already installed Android packages'
-
-      - script: |
-          echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-33;google_apis;x86_64'
-        displayName: 'Install Android image'
-
-      - script: |
-          $ANDROID_HOME/emulator/emulator -list-avds
-          echo '---'
-          echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n test_android_emulator -k 'system-images;android-33;google_apis;x86_64' --force
-          echo '---'
-          $ANDROID_HOME/emulator/emulator -list-avds
-        displayName: 'Create AVD'
-
-      - script: |
-          export KATALON_JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.422-5/x64/Contents/Home/
-          export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.422-5/x64/Contents/Home/
-          $ANDROID_HOME/platform-tools/adb devices
-          echo '---'
-          nohup $ANDROID_HOME/emulator/emulator -avd test_android_emulator -no-snapshot -no-skin -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect  > /dev/null 2>&1 & $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
-          echo '---'
-          $ANDROID_HOME/platform-tools/adb devices -l | grep emulator-5554
-          $ANDROID_HOME/platform-tools/adb shell getprop
-        displayName: 'Start Android emulator'
       - task: katalonTask@1
         inputs:
-          version: '9.0.0'
-          executeArgs: '-noSplash -runMode=console  -retry=0 -testSuitePath="Test Suites/Test_Suite_Mobile" -browserType="Android" -deviceId="emulator-5554" -executionProfile="default" -apiKey="554d7f82-ac15-4b60-aab3-739c97658f70" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -appiumDirectory="/usr/local/lib/node_modules/appium"'
+          version: '9.6.0'
+          executeArgs: '-noSplash -runMode=console -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/Users/runner/work/1/s" -browserType="Chrome" --config -webui.autoUpdateDrivers=true -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506"'
+          
