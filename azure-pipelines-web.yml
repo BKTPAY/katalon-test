@@ -8,8 +8,10 @@ jobs:
       name: BKTPAY UAT Agents
 
     steps:
-      - task: katalonTask@1
-        inputs:
-          version: '9.0.0'
-          executeArgs: '-noSplash -runMode=console -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/Users/runner/work/1/s" -browserType="Chrome" --config -webui.autoUpdateDrivers=true -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506"'
-          
+       - script: |
+          curl -O https://download.katalon.com/9.6.0/Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
+          tar -xzf Katalon_Studio_Engine_MacOS-9.6.0.tar.gz
+          cd Katalon_Studio_Engine_MacOS-9.6.0
+          sudo mv "Katalon Studio Engine.app" /Applications/
+          $ANDROID_HOME/platform-tools/adb shell screenrecord --time-limit=120 /Users/runner/work/1/s/test.mp4 &
+          /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS/katalonc -noSplash -runMode=console -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/Users/runner/work/1/s" -browserType="Chrome" --config -webui.autoUpdateDrivers=true -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506"
