@@ -8,11 +8,8 @@ jobs:
       name: BKTPAY UAT Agents
 
     steps:
-      - task: CmdLine@2
-        inputs:
-          script: 'df -h'
       - task: katalonTask@1
         inputs:
-          version: '9.6.0'
+          version: '9.0.0'
           executeArgs: '-noSplash -runMode=console -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/Users/runner/work/1/s" -browserType="Chrome" --config -webui.autoUpdateDrivers=true -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506"'
           
