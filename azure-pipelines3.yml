@@ -5,6 +5,7 @@ jobs:
   - job: ubuntu
     pool:
       vmImage: ubuntu-latest
+      name: BKTPAY UAT Agents
       
     steps:
       - task: katalonTask@1
