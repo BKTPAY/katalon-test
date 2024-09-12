@@ -4,6 +4,8 @@ jobs:
   - job: macOS
     pool:
       vmImage: macOS-latest
+      name: BKTPAY UAT Agents
+
       
     steps:
     
