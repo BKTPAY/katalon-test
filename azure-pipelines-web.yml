@@ -14,4 +14,4 @@ jobs:
           cd Katalon_Studio_Engine_Linux_64-9.6.0
           ls
           chmod +x katalonc
-          katalonc -noSplash -runMode=console -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/Users/runner/work/1/s" -browserType="Chrome" --config -webui.autoUpdateDrivers=true -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506"
+          ./katalonc -noSplash -runMode=console -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/Users/runner/work/1/s" -browserType="Chrome" --config -webui.autoUpdateDrivers=true -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506"
