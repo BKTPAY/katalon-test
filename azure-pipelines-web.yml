@@ -2,9 +2,9 @@ trigger:
   - master
 
 jobs:
-  - job: ubuntu
+  - job: macOS
     pool:
-      vmImage: ubuntu-latest
+      vmImage: macOS-latest
       name: BKTPAY UAT Agents
 
     steps:
