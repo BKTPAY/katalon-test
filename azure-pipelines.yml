@@ -9,6 +9,10 @@ jobs:
       
     steps:
     
+      - task: NodeTool@0
+        inputs:
+          versionSpec: '18.x'
+        displayName: 'Install Node.js'
       - script: |
           npm install  appium@2.11.2
           sudo ln -s /Users/runner/work/1/s/node_modules/appium/index.js /usr/local/bin/appium
