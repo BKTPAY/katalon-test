@@ -14,7 +14,8 @@ jobs:
     
        - script: |
           free -m
-          top
+          sudo apt-get install htop
+          htop
        - task: katalonTask@1
          inputs:
             version: '9.6.0'
