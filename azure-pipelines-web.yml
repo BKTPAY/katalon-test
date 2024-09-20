@@ -15,7 +15,7 @@ jobs:
        - script: |
           sudo apt-get update
           sudo apt -y install xvfb 
-          sudo apt install openjdk-8-jdk openjdk-8-jre
+          sudo apt install openjdk-17-jdk openjdk-17-jre
           curl -O https://download.katalon.com/9.6.0/Katalon_Studio_Engine_Linux_64-9.6.0.tar.gz
           tar -xzf Katalon_Studio_Engine_Linux_64-9.6.0.tar.gz
           ls
