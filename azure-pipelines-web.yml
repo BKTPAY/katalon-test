@@ -19,6 +19,6 @@ jobs:
        - task: katalonTask@1
          inputs:
             version: '9.6.0'
-            executeArgs: '-noSplash -runMode=console  -retry=0  -testSuitePath="Test Suites/Test_Suite_Web"     -Xmx2048m -Xms512m -projectPath="/azp/_work/2/s" -browserType="Chrome" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -logLevel=INFO'
+            executeArgs: '-noSplash -runMode=console  -retry=0  -testSuitePath="Test Suites/Test_Suite_Web"  -projectPath="/azp/_work/2/s" -browserType="Chrome" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -logLevel=INFO'
             x11Display: ':1'
             xvfbConfiguration: '-a -n 0 -s "-screen 0 1024x768x24"'
