@@ -12,14 +12,7 @@ jobs:
        - script: |
           sudo apt-get update
           sudo apt install openjdk-8-jdk openjdk-8-jre
-          curl -O https://download.katalon.com/9.6.0/Katalon_Studio_Engine_Linux_64-9.6.0.tar.gz
-          tar -xzf Katalon_Studio_Engine_Linux_64-9.6.0.tar.gz
-          ls
-          pwd
-          cd Katalon_Studio_Engine_Linux_64-9.6.0
-          ls
-          chmod +x katalonc
-          ./katalonc 
+          sar -r 0
        - task: katalonTask@1
          inputs:
             version: '9.6.0'
