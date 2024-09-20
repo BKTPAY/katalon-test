@@ -7,7 +7,7 @@ jobs:
       vmImage: ubuntu-latest
       name: BKTPAY UAT Agents
       demands:
-        - Agent.Name -equals  azure-devops-agent2-6c99b94746-cgrbw
+        - Agent.Name -equals  azure-devops-agent2-794d7f957f-snqk5
 
 
     steps:
