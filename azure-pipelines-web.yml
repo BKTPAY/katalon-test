@@ -24,9 +24,11 @@ jobs:
           ls
           chmod +x katalonc
           xvfb-run --server-args="-screen 0, 1024x768x24" ./katalonc -noSplash -runMode=console  -retry=0  -testSuitePath="Test Suites/Test_Suite_Web" -projectPath="/azp/_work/2/s" -browserType="Chrome" -executionProfile="default" -apiKey="f3ab2f6b-d373-4618-b87c-7471b31a5506" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true  -webui.autoUpdateDrivers=true -logLevel=INFO
-      - task: PublishPipelineArtifact@1
-        displayName: 'Publish Pipeline Artifact'
-        inputs:
-          targetPath: $(Pipeline.Workspace)
-          artifact: katalon
-        continueOnError: true
+         continueOnError: true  
+
+       - task: PublishPipelineArtifact@1
+         displayName: 'Publish Pipeline Artifact'
+         inputs:
+            targetPath: $(Pipeline.Workspace)
+            artifact: katalon
+         continueOnError: true
