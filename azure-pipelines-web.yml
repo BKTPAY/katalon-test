@@ -9,12 +9,9 @@ jobs:
 
     steps:
     
-       - task: JavaToolInstaller@0
-         inputs:
-          versionSpec: '17'
-          jdkArchitectureOption: 'x64'
-          jdkSourceOption: 'PreInstalled'
+
        - script: |
+          apt install openjdk-17-jdk openjdk-17-jre
           curl -O https://download.katalon.com/9.6.0/Katalon_Studio_Engine_Linux_64-9.6.0.tar.gz
           tar -xzf Katalon_Studio_Engine_Linux_64-9.6.0.tar.gz
           cd Katalon_Studio_Engine_Linux_64-9.6.0
