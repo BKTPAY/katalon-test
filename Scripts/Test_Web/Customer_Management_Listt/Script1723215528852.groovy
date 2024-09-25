@@ -28,9 +28,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Customer_Management_Lis
 	'JRVbc697Q+q9cSOs8Xgkxw==')
 
 WebUI.click(findTestObject('Object Repository/Customer_Management_List/Page_E-Para Backoffice/input_Forgot Password_login'))
-WebUI.delay(8)
+WebUI.delay(10)
+WebUI.takeScreenshot();
 WebUI.click(findTestObject('Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Customer Management'))
 WebUI.delay(8)
+WebUI.takeScreenshot();
 
 WebUI.click(findTestObject('Object Repository/Customer_Management_List/Page_E-Para Backoffice/div_Individual'))
 WebUI.delay(8)
