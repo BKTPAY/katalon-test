@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration
 
-RunConfiguration.setWebDriverPreferencesProperty("args", ["--disable-gpu"])
+RunConfiguration.setWebDriverPreferencesProperty("args", ["--disable-gpu","--window-size=1920,1080"])
 RunConfiguration.setWebDriverPreferencesProperty("pageLoadStrategy", "eager")
 
 WebUI.openBrowser('')
